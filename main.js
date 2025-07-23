@@ -364,13 +364,13 @@ function renderItem(key, count = 0) {
     }
     if (count === -1) {
         if (getIconUrl(key)) {
-            return `<span class="item just-icon" data-key="${key}">${`<img class="item-icon" data-key="${key}" src="${getIconUrl(key)}" alt="" title="${key}">`}</span>`;
+            return `<span class="item just-icon" data-key="${key}"><img class="item-icon" data-key="${key}" src="${getIconUrl(key)}" alt="" title="${key}"></span>`;
         } else {
             let reducedKey = key.replace(/[^A-Za-z0-9一-龟]+/g, '');
             if (reducedKey.length > 2) {
                 reducedKey = reducedKey.charAt(0) + reducedKey.slice(-1);
             }
-            return `<span class="item just-icon" data-key="${key}">${`<div class="item-icon-unknown ${key.length === 1 ? 'item-icon-unknown-single' : 'item-icon-unknown-double'}" title="${key}">${reducedKey}</div>`}</span>`;
+            return `<span class="item just-icon" data-key="${key}"><div class="item-icon-unknown ${key.length === 1 ? 'item-icon-unknown-single' : 'item-icon-unknown-double'}" title="${key}">${reducedKey}</div></span>`;
         }
     } else if (count === 0) {
         return `<span class="item" data-key="${key}">${getIconUrl(key) ? `<img class="item-icon" data-key="${key}" src="${getIconUrl(key)}" alt="">` : ''}${key}</span>`;
