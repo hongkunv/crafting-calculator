@@ -8,6 +8,8 @@
 [![GitHub issues](https://img.shields.io/github/issues/myworldzycpc/crafting-calculator)](https://github.com/myworldzycpc/crafting-calculator/issues)
 [![GitHub stars](https://img.shields.io/github/stars/myworldzycpc/crafting-calculator)](https://github.com/myworldzycpc/crafting-calculator/stargazers)
 
+> 注意：本项目仍处于开发阶段，可能存在一些 bug 和功能缺陷。目前 Slimefun 配方和图标收录不全，欢迎提交 PR 帮助补充。
+
 ## 功能特点
 
 - 🔍 物品搜索与自动补全
