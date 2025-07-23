@@ -333,6 +333,7 @@ function addAlreadyItem(key = "", count = -1, update = true) {
 }
 
 function readAlreadyHave() {
+    window.alreadyHave = {};
     const $table = $("#item-already-have");
     // 遍历tr
     $table.find('tr').each(function () {
@@ -528,12 +529,15 @@ $(function () {
     });
 
     $("#add-dusts").click(function () {
+        readAlreadyHave();
         for (const dust of ["铁粉", "金粉", "铜粉", "锡粉", "银粉", "铅粉", "铝粉", "锌粉", "镁粉"]) {
             if (window.alreadyHave[dust] === undefined) {
                 addAlreadyItem(dust, undefined, false);
             }
         }
+        if (window.currentShowing) {
         showRecipe(window.currentShowing);
+        }
     });
 
 });
