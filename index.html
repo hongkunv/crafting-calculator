@@ -16,9 +16,23 @@
     <br>
     <div class="jumbotron">
         <h1>合成计算器</h1>
-        <p>欢迎提出建议、贡献代码、合成配方和物品图标等： <a href="https://github.com/myworldzycpc/crafting-calculator">GitHub</a></p>
     </div>
-    <div class="alert alert-info">提示：点击物品可以添加到已有物品</div>
+    <div class="panel panel-default">
+        <div class="panel-heading" id="introduction-toggle">
+            <h3 class="panel-title">说明（点击显示/隐藏）</h3>
+        </div>
+        <div class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>输入物品名称，在搜索结果中选择物品，即可显示该物品的合成配方。</p>
+                <p>点击“一键加粉”按钮，即可添加铁粉、金粉、铜粉、锡粉、银粉、铅粉、铝粉、锌粉、镁粉到已有物品列表。</p>
+                <p>点击“计算”按钮，即可重新计算合成过程。（添加或修改已有物品后，请点击“计算”按钮）</p>
+                <p><b>点击任意物品，即可添加到已有物品列表并重新计算合成过程。</b></p>
+                <p>本项目在 <a href="https://github.com/myworldzycpc/crafting-calculator">GitHub</a>
+                    上开源。欢迎提出建议、贡献代码、合成配方和物品图标等。</p>
+                <p class="no-margin">如果有想添加的附属，请提交 Issue 或 Pull Request。</p>
+            </div>
+        </div>
+    </div>
     <div class="form-group">
         <label for="input-item">
             输入物品：
@@ -60,7 +74,10 @@
             <div class="panel panel-default">
                 <div class="panel-heading" id="inference-toggle">显示/隐藏推导过程</div>
                 <div class="panel-collapse collapse">
-                    <div class="panel-body" id="inference-panel"></div>
+                    <div class="panel-body">
+                        <p id="inference-panel"></p>
+                        <p id="adjust-order"></p>
+                    </div>
                 </div>
             </div>
         </div>

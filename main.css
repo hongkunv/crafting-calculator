@@ -14,11 +14,11 @@
     width: max-content;
 }
 
-#inference-toggle {
+#inference-toggle,#introduction-toggle {
     cursor: pointer;
 }
 
-#inference-toggle:hover {
+#inference-toggle:hover,#introduction-toggle:hover {
     filter: brightness(90%);
 }
 
@@ -163,3 +163,13 @@ input.has-error:focus {
 /*    margin-left: 5px;*/
 /*    margin-right: 5px;*/
 /*}*/
+
+.no-margin {
+    margin: 0;
+}
+
+.arrow {
+    margin-right: 5px;
+    font-size: 18px;
+    color: #808080;
+}

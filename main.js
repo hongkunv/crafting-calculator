@@ -233,6 +233,7 @@ function showRecipe(key) {
     const startTime = new Date().getTime();
     // 检查不会出现在合成前使用的情况
     let continueFlag = true;
+    let adjustOrderHtml = '<ul>';
     while (continueFlag) {
         continueFlag = false;
         // 超时退出
@@ -255,6 +256,7 @@ function showRecipe(key) {
                     order.splice(index, 1);
                     order.splice(order.indexOf(item), 0, key);
                     console.log(`调整顺序: ${key} => ${item}`);
+                    adjustOrderHtml += `<li>调整顺序: ${renderItem(key, count[key])}<span class="arrow">→</span>${renderItem(item, count[item])}</li>`;
                     continueFlag = true;
                     break;
                 }
@@ -270,6 +272,8 @@ function showRecipe(key) {
             }
         }
     }
+    adjustOrderHtml += '</ul>';
+    $("#adjust-order").html(adjustOrderHtml);
     let orderHtml = '';
     for (const item of order) {
         // console.log(`${recipes[item].type}: ${recipes[item].ingredients.map(i => `${i[0]} x ${i[1] ? i[1] * times[item] : times[item]}`).join(' + ')} => ${item} x ${count[item]}`);
@@ -484,7 +488,7 @@ $(function () {
         }
     });
 
-    $("#inference-toggle").click(function () {
+    $("#inference-toggle,#introduction-toggle").click(function () {
         $(this).next().collapse('toggle');
     });
 
@@ -536,8 +540,10 @@ $(function () {
             }
         }
         if (window.currentShowing) {
-        showRecipe(window.currentShowing);
+            showRecipe(window.currentShowing);
         }
     });
 
+    $("#introduction-toggle").next().collapse('toggle');
+    
 });

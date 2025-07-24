@@ -1,3 +1,5 @@
+// noinspection JSNonASCIINames
+
 let recipes = {
     "奶奶的拐杖": {
         "type": "增强型工作台",
@@ -2726,8 +2728,8 @@ let recipes = {
     },
     "奇怪的下界粘液": {
         "type": "交易",
-        "map": [[null, null, null], [null, "§fPiglin", null], [null, null, null]],
-        "ingredients": [["§fPiglin"]]
+        "map": [[null, null, null], [null, "Piglin", null], [null, null, null]],
+        "ingredients": [["Piglin"]]
     },
     "发光浆果汁": {
         "type": "榨汁机",
