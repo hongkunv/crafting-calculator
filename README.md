@@ -4,6 +4,7 @@
 
 本项目虽主要针对 Slimefun 开发，但理论上可通过修改配方数据文件来适用于任何 Minecraft 原版和模组物品。
 
+[![Live Demo](https://img.shields.io/badge/demo-online-green)](http://myworldzycpc.github.io/crafting-calculator/index.html)
 [![GitHub license](https://img.shields.io/github/license/myworldzycpc/crafting-calculator)](LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/myworldzycpc/crafting-calculator)](https://github.com/myworldzycpc/crafting-calculator/issues)
 [![GitHub stars](https://img.shields.io/github/stars/myworldzycpc/crafting-calculator)](https://github.com/myworldzycpc/crafting-calculator/stargazers)
