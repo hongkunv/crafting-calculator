@@ -9,6 +9,7 @@ window.remainings = {};
 window.alreadyHave = {};
 window.inferences = [];
 window.currentShowing = null;
+window.multiItemMode = false;
 
 /**
  * 从recipes对象的键中搜索keyword并返回列表
@@ -203,25 +204,57 @@ function renderMap(key) {
     `;
 }
 
-function showRecipe(key) {
-    if (!recipes[key]) {
-        console.error(`找不到配方 ${key}`);
+function readItemList() {
+    let itemList = [];
+    if (!window.multiItemMode) {
+        const key = $("#single-item-input").val().replace(/\s+/g, '');
+        if (key) {
+            itemList = [[key, 1]];
+        }
+    } else {
+        $("#item-target-list").find("tr").each(function () {
+            const $tr = $(this);
+            const item = $tr.find('input[name=key]').val().replace(/\s+/g, '');
+            const count = $tr.find('input[name=count]').val().replace(/\s+/g, '');
+            if (item && count && parseInt(count) > 0) {
+                itemList.push([item, parseInt(count)]);
+            }
+        });
+    }
+    window.currentShowing = itemList;
+}
+
+function showRecipe() {
+    if (window.currentShowing.length === 0) {
         return;
+    }
+    if (!(window.currentShowing instanceof Array)) {
+        window.currentShowing = [[window.currentShowing, 1]];
+    }
+    readAlreadyHave();
+    for (const item of window.currentShowing) {
+        const key = item[0];
+        if (!recipes[key]) {
+            console.error(`找不到配方 ${key}`);
+            return;
+        }
+        if (window.alreadyHave[key]) {
+            alert(`已经拥有 ${key}`);
+            return;
+        }
     }
     window.order = [];
     window.count = {};
     window.basicCount = {};
-    window.alreadyHave = {};
     window.inferences = [];
     window.remainings = {};
     window.times = {};
-    readAlreadyHave();
-    if (window.alreadyHave[key]) {
-        alert(`已经拥有 ${key}`);
-        return;
+    console.log(`合成 ${window.currentShowing.map(i => i[0] + 'x' + i[1]).join(' + ')}`);
+    for (const item of window.currentShowing) {
+        const key = item[0];
+        const count = item[1];
+        calculate(key, count, 0);
     }
-    console.log(`合成 ${key}`);
-    calculate(key, 1, 0);
     showInference();
     console.log(basicCount);
     let basicCountHtml = '';
@@ -289,12 +322,15 @@ function showRecipe(key) {
     $("#recipe-table").html(orderHtml);
     console.log(remainings);
     let remainingHtml = '';
-    for (const item in remainings) {
-        remainingHtml += renderItem(item, remainings[item]);
+    if (!$.isEmptyObject(remainings)) {
+        for (const item in remainings) {
+            remainingHtml += renderItem(item, remainings[item]);
+        }
+    } else {
+        remainingHtml = '无';
     }
     $("#item-remain").html(remainingHtml);
     $("#results").show();
-    window.currentShowing = key;
 }
 
 function doSearch() {
@@ -331,8 +367,8 @@ function addAlreadyItem(key = "", count = -1, update = true) {
             <td><button class="btn btn-danger" data-action="delete">删除</button></td>
         </tr>
     `);
-    if (update && key && window.currentShowing) {
-        showRecipe(window.currentShowing);
+    if (update && key) {
+        showRecipe();
     }
 }
 
@@ -424,7 +460,8 @@ function activateSearchItem(key) {
     $("#input-item").val(key).blur();
     const $result = $('#search-result');
     $result.hide();
-    showRecipe(key);
+    window.currentShowing = key;
+    showRecipe();
 }
 
 function getIconUrl(key) {
@@ -467,24 +504,57 @@ $(function () {
         addAlreadyItem();
     });
 
-    $("#item-already-have").on('click', '[data-action=delete]', function (event) {
+    $("#add-item-target").click(function () {
+        $("#item-target-list").append(`
+            <tr>
+                <td>${renderItem('', -1)}</td>
+                <td><input type="text" class="form-control" name="key"></td>
+                <td><input type="text" class="form-control" name="count" oninput="checkNumber(this)" value="1"></td>
+                <td><button class="btn btn-danger" data-action="delete">删除</button></td>
+            </tr>
+        `);
+    });
+
+    $("#item-already-have,#item-target-list").on('click', '[data-action=delete]', function (event) {
         $(event.target).parent().parent().remove();
-        if (window.currentShowing) {
-            showRecipe(window.currentShowing);
-        }
+        showRecipe();
     }).on('input', 'input[name=key]', function (event) {
         const key = $(event.target).val().replace(/\s+/g, '');
+        const isItemTargetList = $(event.target).closest("tbody").is("#item-target-list");
         if (key.length > 0) {
             if (icons[key] !== undefined) {
-                $(event.target).parent().prev().html(renderItem(key, -1));
-                $(event.target).removeClass('has-error');
+                if (recipes[key]) {
+                    $(event.target).parent().prev().html(renderItem(key, -1));
+                    $(event.target).removeClass('has-error');
+                    $(event.target).removeClass('has-warning');
+                } else {
+                    if (isItemTargetList) {
+                        $(event.target).parent().prev().html(renderItem(key, -1));
+                        $(event.target).addClass('has-error');
+                        $(event.target).removeClass('has-warning');
+                    } else {
+                        $(event.target).parent().prev().html(renderItem('', -1));
+                        $(event.target).addClass('has-warning');
+                        $(event.target).removeClass('has-error');
+                    }
+                }
             } else {
                 $(event.target).parent().prev().html(renderItem('', -1));
                 $(event.target).addClass('has-error');
+                $(event.target).removeClass('has-warning');
             }
         } else {
             $(event.target).parent().prev().html(renderItem('', -1));
             $(event.target).removeClass('has-error');
+        }
+    }).on('input', 'input[name=count]', function (event) {
+        if ($(event.target).closest("tbody").is("#item-target-list")) {
+            const count = $(event.target).val().replace(/\s+/g, '');
+            if (count === '' || parseInt(count) <= 0) {
+                $(event.target).addClass('has-error');
+            } else {
+                $(event.target).removeClass('has-error');
+            }
         }
     });
 
@@ -493,16 +563,23 @@ $(function () {
     });
 
     $("#calculate").click(function () {
-        const key = $("#input-item").val().replace(/\s+/g, '');
-        if (!key) {
-            alert('请输入物品名称');
+        readItemList();
+        if (window.currentShowing.length === 0) {
+            alert('请先输入物品');
             return;
         }
-        if (!recipes[key]) {
-            alert(`找不到配方 ${key}`);
+        const cantFind = [];
+        for (const item of window.currentShowing) {
+            const key = item[0];
+            if (!recipes[key]) {
+                cantFind.push(key);
+            }
+        }
+        if (cantFind.length > 0) {
+            alert(`找不到配方 ${cantFind.join(', ')}`);
             return;
         }
-        showRecipe(key);
+        showRecipe();
     });
 
     $("body").on('click', '.item', function (event) {
@@ -510,6 +587,9 @@ $(function () {
             event.target = $(event.target).closest('.item')[0];
         }
         const key = $(event.target).data('key');
+        if (!key) {
+            return;
+        }
         if (window.currentShowing === key) {
             alert(`${key} 是目标物品`);
             return;
@@ -539,11 +619,21 @@ $(function () {
                 addAlreadyItem(dust, undefined, false);
             }
         }
-        if (window.currentShowing) {
-            showRecipe(window.currentShowing);
-        }
+        showRecipe();
     });
 
     $("#introduction-toggle").next().collapse('toggle');
-    
+
+    $("#input-item-select").on('change', function () {
+        const mode = $(this).val();
+        if (mode === "single") {
+            $("#single-item-input").show();
+            $("#multi-item-input").hide();
+            window.multiItemMode = false;
+        } else {
+            $("#single-item-input").hide();
+            $("#multi-item-input").show();
+            window.multiItemMode = true;
+        }
+    });
 });

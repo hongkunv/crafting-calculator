@@ -124,6 +124,17 @@ input.has-error:focus {
     background-color: #ffe4e4;
 }
 
+input.has-warning {
+    border-color: #ffc107;
+    background-color: #fff3cd;
+}
+
+input.has-warning:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+    background-color: #fff3cd;
+}
+
 .search-result-key {
     line-height: 32px;
 }
@@ -172,4 +183,8 @@ input.has-error:focus {
     margin-right: 5px;
     font-size: 18px;
     color: #808080;
+}
+
+#input-item-select {
+    display: inline-block;
 }
