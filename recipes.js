@@ -1068,7 +1068,8 @@ let recipes = {
     "塑料纸": {
         "type": "加热压力舱",
         "map": [[null, null, null], [null, "原油桶", null], [null, null, null]],
-        "ingredients": [["原油桶"]]
+        "ingredients": [["原油桶"]],
+        "count": 8
     },
     "机器人内存核心": {
         "type": "增强型工作台",
