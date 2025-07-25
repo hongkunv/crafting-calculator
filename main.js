@@ -359,7 +359,8 @@ function checkNumber(input) {
 }
 
 function addAlreadyItem(key = "", count = -1, update = true) {
-    $("#item-already-have").append(`
+    const $table = $("#item-already-have");
+    $table.append(`
         <tr>
             <td>${renderItem(key, -1)}</td>
             <td><input type="text" class="form-control" name="key" value="${key}"></td>
@@ -367,6 +368,9 @@ function addAlreadyItem(key = "", count = -1, update = true) {
             <td><button class="btn btn-danger" data-action="delete">删除</button></td>
         </tr>
     `);
+    if (!key) {
+        $table.find('input[name=key]').last().focus();
+    }
     if (update && key) {
         showRecipe();
     }
@@ -474,7 +478,10 @@ $(function () {
 
     $('#input-item')
         .on('input', updateInput)
-        .focus(doSearch)
+        .focus(function () {
+            doSearch();
+            $(this).select();
+        })
         .keydown(function (event) {
             if (event.key === 'Enter') {
                 const key = window.activeSearchResult;
@@ -512,12 +519,14 @@ $(function () {
                 <td><input type="text" class="form-control" name="count" oninput="checkNumber(this)" value="1"></td>
                 <td><button class="btn btn-danger" data-action="delete">删除</button></td>
             </tr>
-        `);
+        `).find('input[name=key]').last().focus();
     });
 
     $("#item-already-have,#item-target-list").on('click', '[data-action=delete]', function (event) {
         $(event.target).parent().parent().remove();
         showRecipe();
+    }).on('focus', 'input', function (event) {
+        event.target.select();
     }).on('input', 'input[name=key]', function (event) {
         const key = $(event.target).val().replace(/\s+/g, '');
         const isItemTargetList = $(event.target).closest("tbody").is("#item-target-list");
@@ -554,6 +563,50 @@ $(function () {
                 $(event.target).addClass('has-error');
             } else {
                 $(event.target).removeClass('has-error');
+            }
+        }
+    }).on('keydown', 'input', function (event) {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            const itemHtml = `
+                <tr>
+                    <td>${renderItem('', -1)}</td>
+                    <td><input type="text" class="form-control" name="key"></td>
+                    <td><input type="text" class="form-control" name="count" oninput="checkNumber(this)" value="${$(event.target).closest("tbody").is("#item-target-list") ? 1 : ''}"></td>
+                    <td><button class="btn btn-danger" data-action="delete">删除</button></td>
+                </tr>
+            `;
+            // Shift键添加到上一行
+            if (event.shiftKey) {
+                $(event.target).closest('tr').before(itemHtml);
+                $(event.target).closest('tr').prev().find('input[name=key]').last().focus();
+            } else {
+                $(event.target).closest('tr').after(itemHtml);
+                $(event.target).closest('tr').next().find('input[name=key]').last().focus();
+            }
+        } else if (event.key === 'ArrowUp') {
+            event.preventDefault();
+            const $tr = $(event.target).closest('tr');
+            if ($(event.target).is('[name=key]')) {
+                if ($tr.prev().length > 0) {
+                    $tr.prev().find('input[name=key]').last().focus();
+                }
+            } else {
+                if ($tr.prev().length > 0) {
+                    $tr.prev().find('input[name=count]').last().focus();
+                }
+            }
+        } else if (event.key === 'ArrowDown') {
+            event.preventDefault();
+            const $tr = $(event.target).closest('tr');
+            if ($(event.target).is('[name=key]')) {
+                if ($tr.next().length > 0) {
+                    $tr.next().find('input[name=key]').last().focus();
+                }
+            } else {
+                if ($tr.next().length > 0) {
+                    $tr.next().find('input[name=count]').last().focus();
+                }
             }
         }
     });
@@ -623,6 +676,15 @@ $(function () {
     });
 
     $("#introduction-toggle").next().collapse('toggle');
+
+    $("#item-target-list").append(`
+        <tr>
+            <td>${renderItem('', -1)}</td>
+            <td><input type="text" class="form-control" name="key"></td>
+            <td><input type="text" class="form-control" name="count" oninput="checkNumber(this)" value="1"></td>
+            <td><button class="btn btn-danger" data-action="delete">删除</button></td>
+        </tr>
+    `);
 
     $("#input-item-select").on('change', function () {
         const mode = $(this).val();
