@@ -643,9 +643,11 @@ $(function () {
         if (!key) {
             return;
         }
-        if (window.currentShowing === key) {
-            alert(`${key} 是目标物品`);
-            return;
+        for (const item of window.currentShowing) {
+            if (item[0] === key) {
+                alert(`${key} 是目标物品`);
+                return;
+            }
         }
         if (recipes[key]) {
             readAlreadyHave();
