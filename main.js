@@ -700,4 +700,7 @@ $(function () {
             window.multiItemMode = true;
         }
     });
+
+    $("#loading").hide();
+    $("#main").show();
 });
