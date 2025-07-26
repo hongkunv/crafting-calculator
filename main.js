@@ -207,7 +207,7 @@ function renderMap(key) {
 function readItemList() {
     let itemList = [];
     if (!window.multiItemMode) {
-        const key = $("#single-item-input").val().replace(/\s+/g, '');
+        const key = $("#input-item").val().replace(/\s+/g, '');
         if (key) {
             itemList = [[key, 1]];
         }
@@ -227,9 +227,6 @@ function readItemList() {
 function showRecipe() {
     if (window.currentShowing.length === 0) {
         return;
-    }
-    if (!(window.currentShowing instanceof Array)) {
-        window.currentShowing = [[window.currentShowing, 1]];
     }
     readAlreadyHave();
     for (const item of window.currentShowing) {
@@ -464,7 +461,7 @@ function activateSearchItem(key) {
     $("#input-item").val(key).blur();
     const $result = $('#search-result');
     $result.hide();
-    window.currentShowing = key;
+    window.currentShowing = [[key, 1]];
     showRecipe();
 }
 
