@@ -8,7 +8,7 @@ window.basicCount = {};
 window.remainings = {};
 window.alreadyHave = {};
 window.inferences = [];
-window.currentShowing = null;
+window.currentShowing = [];
 window.multiItemMode = false;
 
 /**
@@ -528,26 +528,30 @@ $(function () {
         const key = $(event.target).val().replace(/\s+/g, '');
         const isItemTargetList = $(event.target).closest("tbody").is("#item-target-list");
         if (key.length > 0) {
-            if (icons[key] !== undefined) {
-                if (recipes[key]) {
-                    $(event.target).parent().prev().html(renderItem(key, -1));
-                    $(event.target).removeClass('has-error');
-                    $(event.target).removeClass('has-warning');
-                } else {
-                    if (isItemTargetList) {
+            if (recipes[key]) {
+                $(event.target).parent().prev().html(renderItem(key, -1));
+                $(event.target).removeClass('has-error');
+                $(event.target).removeClass('has-warning');
+            } else {
+                if (isItemTargetList) {
+                    if (icons[key]) {
                         $(event.target).parent().prev().html(renderItem(key, -1));
-                        $(event.target).addClass('has-error');
-                        $(event.target).removeClass('has-warning');
                     } else {
                         $(event.target).parent().prev().html(renderItem('', -1));
+                    }
+                    $(event.target).addClass('has-error');
+                    $(event.target).removeClass('has-warning');
+                } else {
+                    if (icons[key]) {
+                        $(event.target).parent().prev().html(renderItem(key, -1));
                         $(event.target).addClass('has-warning');
                         $(event.target).removeClass('has-error');
+                    } else {
+                        $(event.target).parent().prev().html(renderItem('', -1));
+                        $(event.target).addClass('has-error');
+                        $(event.target).removeClass('has-warning');
                     }
                 }
-            } else {
-                $(event.target).parent().prev().html(renderItem('', -1));
-                $(event.target).addClass('has-error');
-                $(event.target).removeClass('has-warning');
             }
         } else {
             $(event.target).parent().prev().html(renderItem('', -1));
