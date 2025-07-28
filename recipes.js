@@ -1047,7 +1047,7 @@ let recipes = {
         "type": "增强型工作台",
         "map": [["锡锭", "锡锭", "锡锭"], ["锡锭", null, "锡锭"], ["锡锭", "锡锭", "锡锭"]],
         "ingredients": [["锡锭", 8]],
-        "count": 4
+        "count": 8
     },
     "金块(24克拉)": {
         "type": "增强型工作台",
@@ -2667,7 +2667,8 @@ let recipes = {
     "有机食物": {
         "type": "食品加工机",
         "map": [["锡罐", "海草", null], [null, null, null], [null, null, null]],
-        "ingredients": [["锡罐"], ["海草"]]
+        "ingredients": [["锡罐"], ["海草"]],
+        "count": 2
     },
     "树木生长加速器": {
         "type": "增强型工作台",
@@ -3053,5 +3054,5460 @@ let recipes = {
         "type": "增强型工作台",
         "map": [["钢筋板", "五阶蓬松箱子", "钢筋板"], ["钢筋板", "五阶蓬松箱子", "钢筋板"], ["钢筋板", "起泡锭", "钢筋板"]],
         "ingredients": [["钢筋板", 6], ["五阶蓬松箱子", 2], ["起泡锭"]]
+    },
+    "作物架": {
+        "type": "增强型工作台",
+        "map": [["木棍", "木棍", null], ["木棍", "木棍", null], [null, null, null]],
+        "ingredients": [["木棍", 4]]
+    },
+    "植物分析仪": {
+        "type": "增强型工作台",
+        "map": [["钻石", "玻璃", null], ["起泡锭(33%)", "作物生长加速器", null], [null, null, null]],
+        "ingredients": [["钻石"], ["玻璃"], ["起泡锭(33%)"], ["作物生长加速器"]]
+    },
+    "种子袋": {
+        "type": "增强型工作台",
+        "map": [["皮革", "线", "皮革"], ["皮革", null, "皮革"], ["皮革", "皮革", "皮革"]],
+        "ingredients": [["皮革", 7], ["线"]]
+    },
+    "园艺玻璃罩": {
+        "type": "增强型工作台",
+        "map": [[null, "钢化玻璃", null], [null, "作物生长加速器", null], [null, "金块(24克拉)", null]],
+        "ingredients": [["钢化玻璃"], ["作物生长加速器"], ["金块(24克拉)"]]
+    },
+    "厨房柜台:空": {
+        "type": "增强型工作台",
+        "map": [[null, null, null], ["铁块", "铁块", "铁块"], ["深色橡木原木", "深色橡木原木", "深色橡木原木"]],
+        "ingredients": [["铁块", 3], ["深色橡木原木", 3]]
+    },
+    "厨房柜台:砧板": {
+        "type": "增强型工作台",
+        "map": [[null, "铁剑", null], ["铁块", "磨制黑石", "铁块"], ["深色橡木原木", "深色橡木原木", "深色橡木原木"]],
+        "ingredients": [["铁剑"], ["铁块", 2], ["磨制黑石"], ["深色橡木原木", 3]]
+    },
+    "厨房柜台:搅拌机": {
+        "type": "增强型工作台",
+        "map": [[null, "玻璃", null], ["铁块", "石英块", "铁块"], ["深色橡木原木", "深色橡木原木", "深色橡木原木"]],
+        "ingredients": [["玻璃"], ["铁块", 2], ["石英块"], ["深色橡木原木", 3]]
+    },
+    "厨房柜台:切片板": {
+        "type": "增强型工作台",
+        "map": [[null, "剪刀", null], ["铁块", "青金石块", "铁块"], ["深色橡木原木", "深色橡木原木", "深色橡木原木"]],
+        "ingredients": [["剪刀"], ["铁块", 2], ["青金石块"], ["深色橡木原木", 3]]
+    },
+    "厨房柜台:研磨杵和研钵": {
+        "type": "增强型工作台",
+        "map": [[null, "骨头", null], ["铁块", "炼药锅", "铁块"], ["深色橡木原木", "深色橡木原木", "深色橡木原木"]],
+        "ingredients": [["骨头"], ["铁块", 2], ["炼药锅"], ["深色橡木原木", 3]]
+    },
+    "厨房柜台:捣碎碗": {
+        "type": "增强型工作台",
+        "map": [[null, "下界合金锄", null], ["铁块", "堆肥桶", "铁块"], ["深色橡木原木", "深色橡木原木", "深色橡木原木"]],
+        "ingredients": [["下界合金锄"], ["铁块", 2], ["堆肥桶"], ["深色橡木原木", 3]]
+    },
+    "厨房柜台:大锅": {
+        "type": "增强型工作台",
+        "map": [[null, "遮光玻璃", "炼药锅"], ["铁块", "营火", "铁块"], ["深色橡木原木", "强化熔炉-I", "深色橡木原木"]],
+        "ingredients": [["遮光玻璃"], ["炼药锅"], ["铁块", 2], ["营火"], ["深色橡木原木", 2], ["强化熔炉-I"]]
+    },
+    "厨房柜台:烤箱": {
+        "type": "增强型工作台",
+        "map": [[null, "铁块", null], ["铁块", "磨制黑石", "铁块"], ["深色橡木原木", "黑金刚石镶边熔炉", "深色橡木原木"]],
+        "ingredients": [["铁块", 3], ["磨制黑石"], ["深色橡木原木", 2], ["黑金刚石镶边熔炉"]]
+    },
+    "厨房柜台:煎锅": {
+        "type": "增强型工作台",
+        "map": [[null, "遮光玻璃", null], ["铁块", "营火", "铁块"], ["深色橡木原木", "黑金刚石镶边熔炉", "深色橡木原木"]],
+        "ingredients": [["遮光玻璃"], ["铁块", 2], ["营火"], ["深色橡木原木", 2], ["黑金刚石镶边熔炉"]]
+    },
+    "厨房柜台:烤架": {
+        "type": "增强型工作台",
+        "map": [[null, "铁块", null], ["铁块", "雕纹磨制黑石", "铁块"], ["深色橡木原木", "电动马达", "深色橡木原木"]],
+        "ingredients": [["铁块", 3], ["雕纹磨制黑石"], ["深色橡木原木", 2], ["电动马达"]]
+    },
+    "厨房柜台:上菜": {
+        "type": "增强型工作台",
+        "map": [[null, null, null], ["铁块", "磨制闪长岩", "铁块"], ["深色橡木原木", "合成机马达", "深色橡木原木"]],
+        "ingredients": [["铁块", 2], ["磨制闪长岩"], ["深色橡木原木", 2], ["合成机马达"]]
+    },
+    "切碎的香蕉": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "香蕉", null], [null, null, null]],
+        "ingredients": [["香蕉"]]
+    },
+    "捣碎的香蕉": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "香蕉", null], [null, null, null]],
+        "ingredients": [["香蕉"]]
+    },
+    "切片的香蕉": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "香蕉", null], [null, null, null]],
+        "ingredients": [["香蕉"]]
+    },
+    "剁碎的香蕉": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "香蕉", null], [null, null, null]],
+        "ingredients": [["香蕉"]]
+    },
+    "搅拌的香蕉": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "香蕉", null], [null, null, null]],
+        "ingredients": [["香蕉"]]
+    },
+    "煮熟的香蕉": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "香蕉", null], [null, null, null]],
+        "ingredients": [["香蕉"]]
+    },
+    "油炸的香蕉": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "香蕉", null], [null, null, null]],
+        "ingredients": [["香蕉"]]
+    },
+    "烤制的香蕉": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "香蕉", null], [null, null, null]],
+        "ingredients": [["香蕉"]]
+    },
+    "切碎的柠檬": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "柠檬", null], [null, null, null]],
+        "ingredients": [["柠檬"]]
+    },
+    "捣碎的柠檬": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "柠檬", null], [null, null, null]],
+        "ingredients": [["柠檬"]]
+    },
+    "切片的柠檬": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "柠檬", null], [null, null, null]],
+        "ingredients": [["柠檬"]]
+    },
+    "剁碎的柠檬": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "柠檬", null], [null, null, null]],
+        "ingredients": [["柠檬"]]
+    },
+    "搅拌的柠檬": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "柠檬", null], [null, null, null]],
+        "ingredients": [["柠檬"]]
+    },
+    "煮熟的柠檬": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "柠檬", null], [null, null, null]],
+        "ingredients": [["柠檬"]]
+    },
+    "油炸的柠檬": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "柠檬", null], [null, null, null]],
+        "ingredients": [["柠檬"]]
+    },
+    "烤制的柠檬": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "柠檬", null], [null, null, null]],
+        "ingredients": [["柠檬"]]
+    },
+    "切碎的橘子": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "橘子", null], [null, null, null]],
+        "ingredients": [["橘子"]]
+    },
+    "捣碎的橘子": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "橘子", null], [null, null, null]],
+        "ingredients": [["橘子"]]
+    },
+    "切片的橘子": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "橘子", null], [null, null, null]],
+        "ingredients": [["橘子"]]
+    },
+    "剁碎的橘子": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "橘子", null], [null, null, null]],
+        "ingredients": [["橘子"]]
+    },
+    "搅拌的橘子": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "橘子", null], [null, null, null]],
+        "ingredients": [["橘子"]]
+    },
+    "煮熟的橘子": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "橘子", null], [null, null, null]],
+        "ingredients": [["橘子"]]
+    },
+    "油炸的橘子": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "橘子", null], [null, null, null]],
+        "ingredients": [["橘子"]]
+    },
+    "烤制的橘子": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "橘子", null], [null, null, null]],
+        "ingredients": [["橘子"]]
+    },
+    "切碎的青苹果": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "青苹果", null], [null, null, null]],
+        "ingredients": [["青苹果"]]
+    },
+    "捣碎的青苹果": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "青苹果", null], [null, null, null]],
+        "ingredients": [["青苹果"]]
+    },
+    "切片的青苹果": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "青苹果", null], [null, null, null]],
+        "ingredients": [["青苹果"]]
+    },
+    "剁碎的青苹果": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "青苹果", null], [null, null, null]],
+        "ingredients": [["青苹果"]]
+    },
+    "搅拌的青苹果": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "青苹果", null], [null, null, null]],
+        "ingredients": [["青苹果"]]
+    },
+    "煮熟的青苹果": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "青苹果", null], [null, null, null]],
+        "ingredients": [["青苹果"]]
+    },
+    "油炸的青苹果": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "青苹果", null], [null, null, null]],
+        "ingredients": [["青苹果"]]
+    },
+    "烤制的青苹果": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "青苹果", null], [null, null, null]],
+        "ingredients": [["青苹果"]]
+    },
+    "切碎的菠萝": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "菠萝", null], [null, null, null]],
+        "ingredients": [["菠萝"]]
+    },
+    "捣碎的菠萝": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "菠萝", null], [null, null, null]],
+        "ingredients": [["菠萝"]]
+    },
+    "切片的菠萝": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "菠萝", null], [null, null, null]],
+        "ingredients": [["菠萝"]]
+    },
+    "剁碎的菠萝": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "菠萝", null], [null, null, null]],
+        "ingredients": [["菠萝"]]
+    },
+    "搅拌的菠萝": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "菠萝", null], [null, null, null]],
+        "ingredients": [["菠萝"]]
+    },
+    "煮熟的菠萝": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "菠萝", null], [null, null, null]],
+        "ingredients": [["菠萝"]]
+    },
+    "油炸的菠萝": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "菠萝", null], [null, null, null]],
+        "ingredients": [["菠萝"]]
+    },
+    "烤制的菠萝": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "菠萝", null], [null, null, null]],
+        "ingredients": [["菠萝"]]
+    },
+    "切碎的芒果": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "芒果", null], [null, null, null]],
+        "ingredients": [["芒果"]]
+    },
+    "捣碎的芒果": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "芒果", null], [null, null, null]],
+        "ingredients": [["芒果"]]
+    },
+    "切片的芒果": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "芒果", null], [null, null, null]],
+        "ingredients": [["芒果"]]
+    },
+    "剁碎的芒果": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "芒果", null], [null, null, null]],
+        "ingredients": [["芒果"]]
+    },
+    "搅拌的芒果": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "芒果", null], [null, null, null]],
+        "ingredients": [["芒果"]]
+    },
+    "煮熟的芒果": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "芒果", null], [null, null, null]],
+        "ingredients": [["芒果"]]
+    },
+    "油炸的芒果": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "芒果", null], [null, null, null]],
+        "ingredients": [["芒果"]]
+    },
+    "烤制的芒果": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "芒果", null], [null, null, null]],
+        "ingredients": [["芒果"]]
+    },
+    "切碎的桃子": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "桃子", null], [null, null, null]],
+        "ingredients": [["桃子"]]
+    },
+    "捣碎的桃子": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "桃子", null], [null, null, null]],
+        "ingredients": [["桃子"]]
+    },
+    "切片的桃子": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "桃子", null], [null, null, null]],
+        "ingredients": [["桃子"]]
+    },
+    "剁碎的桃子": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "桃子", null], [null, null, null]],
+        "ingredients": [["桃子"]]
+    },
+    "搅拌的桃子": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "桃子", null], [null, null, null]],
+        "ingredients": [["桃子"]]
+    },
+    "煮熟的桃子": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "桃子", null], [null, null, null]],
+        "ingredients": [["桃子"]]
+    },
+    "油炸的桃子": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "桃子", null], [null, null, null]],
+        "ingredients": [["桃子"]]
+    },
+    "烤制的桃子": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "桃子", null], [null, null, null]],
+        "ingredients": [["桃子"]]
+    },
+    "切碎的杏子": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "杏子", null], [null, null, null]],
+        "ingredients": [["杏子"]]
+    },
+    "捣碎的杏子": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "杏子", null], [null, null, null]],
+        "ingredients": [["杏子"]]
+    },
+    "切片的杏子": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "杏子", null], [null, null, null]],
+        "ingredients": [["杏子"]]
+    },
+    "剁碎的杏子": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "杏子", null], [null, null, null]],
+        "ingredients": [["杏子"]]
+    },
+    "搅拌的杏子": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "杏子", null], [null, null, null]],
+        "ingredients": [["杏子"]]
+    },
+    "煮熟的杏子": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "杏子", null], [null, null, null]],
+        "ingredients": [["杏子"]]
+    },
+    "油炸的杏子": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "杏子", null], [null, null, null]],
+        "ingredients": [["杏子"]]
+    },
+    "烤制的杏子": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "杏子", null], [null, null, null]],
+        "ingredients": [["杏子"]]
+    },
+    "切碎的梨": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "梨", null], [null, null, null]],
+        "ingredients": [["梨"]]
+    },
+    "捣碎的梨": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "梨", null], [null, null, null]],
+        "ingredients": [["梨"]]
+    },
+    "切片的梨": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "梨", null], [null, null, null]],
+        "ingredients": [["梨"]]
+    },
+    "剁碎的梨": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "梨", null], [null, null, null]],
+        "ingredients": [["梨"]]
+    },
+    "搅拌的梨": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "梨", null], [null, null, null]],
+        "ingredients": [["梨"]]
+    },
+    "煮熟的梨": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "梨", null], [null, null, null]],
+        "ingredients": [["梨"]]
+    },
+    "油炸的梨": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "梨", null], [null, null, null]],
+        "ingredients": [["梨"]]
+    },
+    "烤制的梨": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "梨", null], [null, null, null]],
+        "ingredients": [["梨"]]
+    },
+    "切碎的樱桃": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "樱桃", null], [null, null, null]],
+        "ingredients": [["樱桃"]]
+    },
+    "捣碎的樱桃": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "樱桃", null], [null, null, null]],
+        "ingredients": [["樱桃"]]
+    },
+    "切片的樱桃": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "樱桃", null], [null, null, null]],
+        "ingredients": [["樱桃"]]
+    },
+    "剁碎的樱桃": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "樱桃", null], [null, null, null]],
+        "ingredients": [["樱桃"]]
+    },
+    "搅拌的樱桃": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "樱桃", null], [null, null, null]],
+        "ingredients": [["樱桃"]]
+    },
+    "煮熟的樱桃": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "樱桃", null], [null, null, null]],
+        "ingredients": [["樱桃"]]
+    },
+    "油炸的樱桃": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "樱桃", null], [null, null, null]],
+        "ingredients": [["樱桃"]]
+    },
+    "烤制的樱桃": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "樱桃", null], [null, null, null]],
+        "ingredients": [["樱桃"]]
+    },
+    "切碎的奇异果": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "奇异果", null], [null, null, null]],
+        "ingredients": [["奇异果"]]
+    },
+    "捣碎的奇异果": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "奇异果", null], [null, null, null]],
+        "ingredients": [["奇异果"]]
+    },
+    "切片的奇异果": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "奇异果", null], [null, null, null]],
+        "ingredients": [["奇异果"]]
+    },
+    "剁碎的奇异果": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "奇异果", null], [null, null, null]],
+        "ingredients": [["奇异果"]]
+    },
+    "搅拌的奇异果": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "奇异果", null], [null, null, null]],
+        "ingredients": [["奇异果"]]
+    },
+    "煮熟的奇异果": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "奇异果", null], [null, null, null]],
+        "ingredients": [["奇异果"]]
+    },
+    "油炸的奇异果": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "奇异果", null], [null, null, null]],
+        "ingredients": [["奇异果"]]
+    },
+    "烤制的奇异果": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "奇异果", null], [null, null, null]],
+        "ingredients": [["奇异果"]]
+    },
+    "切碎的酸橙": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "酸橙", null], [null, null, null]],
+        "ingredients": [["酸橙"]]
+    },
+    "捣碎的酸橙": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "酸橙", null], [null, null, null]],
+        "ingredients": [["酸橙"]]
+    },
+    "切片的酸橙": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "酸橙", null], [null, null, null]],
+        "ingredients": [["酸橙"]]
+    },
+    "剁碎的酸橙": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "酸橙", null], [null, null, null]],
+        "ingredients": [["酸橙"]]
+    },
+    "搅拌的酸橙": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "酸橙", null], [null, null, null]],
+        "ingredients": [["酸橙"]]
+    },
+    "煮熟的酸橙": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "酸橙", null], [null, null, null]],
+        "ingredients": [["酸橙"]]
+    },
+    "油炸的酸橙": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "酸橙", null], [null, null, null]],
+        "ingredients": [["酸橙"]]
+    },
+    "烤制的酸橙": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "酸橙", null], [null, null, null]],
+        "ingredients": [["酸橙"]]
+    },
+    "切碎的板栗": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "板栗", null], [null, null, null]],
+        "ingredients": [["板栗"]]
+    },
+    "捣碎的板栗": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "板栗", null], [null, null, null]],
+        "ingredients": [["板栗"]]
+    },
+    "切片的板栗": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "板栗", null], [null, null, null]],
+        "ingredients": [["板栗"]]
+    },
+    "剁碎的板栗": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "板栗", null], [null, null, null]],
+        "ingredients": [["板栗"]]
+    },
+    "搅拌的板栗": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "板栗", null], [null, null, null]],
+        "ingredients": [["板栗"]]
+    },
+    "煮熟的板栗": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "板栗", null], [null, null, null]],
+        "ingredients": [["板栗"]]
+    },
+    "油炸的板栗": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "板栗", null], [null, null, null]],
+        "ingredients": [["板栗"]]
+    },
+    "烤制的板栗": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "板栗", null], [null, null, null]],
+        "ingredients": [["板栗"]]
+    },
+    "切碎的榛子": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "榛子", null], [null, null, null]],
+        "ingredients": [["榛子"]]
+    },
+    "捣碎的榛子": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "榛子", null], [null, null, null]],
+        "ingredients": [["榛子"]]
+    },
+    "切片的榛子": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "榛子", null], [null, null, null]],
+        "ingredients": [["榛子"]]
+    },
+    "剁碎的榛子": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "榛子", null], [null, null, null]],
+        "ingredients": [["榛子"]]
+    },
+    "搅拌的榛子": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "榛子", null], [null, null, null]],
+        "ingredients": [["榛子"]]
+    },
+    "煮熟的榛子": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "榛子", null], [null, null, null]],
+        "ingredients": [["榛子"]]
+    },
+    "油炸的榛子": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "榛子", null], [null, null, null]],
+        "ingredients": [["榛子"]]
+    },
+    "烤制的榛子": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "榛子", null], [null, null, null]],
+        "ingredients": [["榛子"]]
+    },
+    "切碎的山核桃": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "山核桃", null], [null, null, null]],
+        "ingredients": [["山核桃"]]
+    },
+    "捣碎的山核桃": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "山核桃", null], [null, null, null]],
+        "ingredients": [["山核桃"]]
+    },
+    "切片的山核桃": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "山核桃", null], [null, null, null]],
+        "ingredients": [["山核桃"]]
+    },
+    "剁碎的山核桃": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "山核桃", null], [null, null, null]],
+        "ingredients": [["山核桃"]]
+    },
+    "搅拌的山核桃": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "山核桃", null], [null, null, null]],
+        "ingredients": [["山核桃"]]
+    },
+    "煮熟的山核桃": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "山核桃", null], [null, null, null]],
+        "ingredients": [["山核桃"]]
+    },
+    "油炸的山核桃": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "山核桃", null], [null, null, null]],
+        "ingredients": [["山核桃"]]
+    },
+    "烤制的山核桃": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "山核桃", null], [null, null, null]],
+        "ingredients": [["山核桃"]]
+    },
+    "切碎的葡萄": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "葡萄", null], [null, null, null]],
+        "ingredients": [["葡萄"]]
+    },
+    "捣碎的葡萄": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "葡萄", null], [null, null, null]],
+        "ingredients": [["葡萄"]]
+    },
+    "切片的葡萄": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "葡萄", null], [null, null, null]],
+        "ingredients": [["葡萄"]]
+    },
+    "剁碎的葡萄": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "葡萄", null], [null, null, null]],
+        "ingredients": [["葡萄"]]
+    },
+    "搅拌的葡萄": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "葡萄", null], [null, null, null]],
+        "ingredients": [["葡萄"]]
+    },
+    "煮熟的葡萄": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "葡萄", null], [null, null, null]],
+        "ingredients": [["葡萄"]]
+    },
+    "油炸的葡萄": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "葡萄", null], [null, null, null]],
+        "ingredients": [["葡萄"]]
+    },
+    "烤制的葡萄": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "葡萄", null], [null, null, null]],
+        "ingredients": [["葡萄"]]
+    },
+    "切碎的草莓": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "草莓", null], [null, null, null]],
+        "ingredients": [["草莓"]]
+    },
+    "捣碎的草莓": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "草莓", null], [null, null, null]],
+        "ingredients": [["草莓"]]
+    },
+    "切片的草莓": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "草莓", null], [null, null, null]],
+        "ingredients": [["草莓"]]
+    },
+    "剁碎的草莓": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "草莓", null], [null, null, null]],
+        "ingredients": [["草莓"]]
+    },
+    "搅拌的草莓": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "草莓", null], [null, null, null]],
+        "ingredients": [["草莓"]]
+    },
+    "煮熟的草莓": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "草莓", null], [null, null, null]],
+        "ingredients": [["草莓"]]
+    },
+    "油炸的草莓": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "草莓", null], [null, null, null]],
+        "ingredients": [["草莓"]]
+    },
+    "烤制的草莓": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "草莓", null], [null, null, null]],
+        "ingredients": [["草莓"]]
+    },
+    "切碎的花生": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "花生", null], [null, null, null]],
+        "ingredients": [["花生"]]
+    },
+    "捣碎的花生": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "花生", null], [null, null, null]],
+        "ingredients": [["花生"]]
+    },
+    "切片的花生": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "花生", null], [null, null, null]],
+        "ingredients": [["花生"]]
+    },
+    "剁碎的花生": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "花生", null], [null, null, null]],
+        "ingredients": [["花生"]]
+    },
+    "搅拌的花生": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "花生", null], [null, null, null]],
+        "ingredients": [["花生"]]
+    },
+    "煮熟的花生": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "花生", null], [null, null, null]],
+        "ingredients": [["花生"]]
+    },
+    "油炸的花生": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "花生", null], [null, null, null]],
+        "ingredients": [["花生"]]
+    },
+    "烤制的花生": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "花生", null], [null, null, null]],
+        "ingredients": [["花生"]]
+    },
+    "切碎的大米": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "大米", null], [null, null, null]],
+        "ingredients": [["大米"]]
+    },
+    "捣碎的大米": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "大米", null], [null, null, null]],
+        "ingredients": [["大米"]]
+    },
+    "切片的大米": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "大米", null], [null, null, null]],
+        "ingredients": [["大米"]]
+    },
+    "剁碎的大米": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "大米", null], [null, null, null]],
+        "ingredients": [["大米"]]
+    },
+    "搅拌的大米": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "大米", null], [null, null, null]],
+        "ingredients": [["大米"]]
+    },
+    "煮熟的大米": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "大米", null], [null, null, null]],
+        "ingredients": [["大米"]]
+    },
+    "油炸的大米": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "大米", null], [null, null, null]],
+        "ingredients": [["大米"]]
+    },
+    "烤制的大米": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "大米", null], [null, null, null]],
+        "ingredients": [["大米"]]
+    },
+    "切碎的大蒜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "大蒜", null], [null, null, null]],
+        "ingredients": [["大蒜"]]
+    },
+    "捣碎的大蒜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "大蒜", null], [null, null, null]],
+        "ingredients": [["大蒜"]]
+    },
+    "切片的大蒜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "大蒜", null], [null, null, null]],
+        "ingredients": [["大蒜"]]
+    },
+    "剁碎的大蒜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "大蒜", null], [null, null, null]],
+        "ingredients": [["大蒜"]]
+    },
+    "搅拌的大蒜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "大蒜", null], [null, null, null]],
+        "ingredients": [["大蒜"]]
+    },
+    "煮熟的大蒜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "大蒜", null], [null, null, null]],
+        "ingredients": [["大蒜"]]
+    },
+    "油炸的大蒜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "大蒜", null], [null, null, null]],
+        "ingredients": [["大蒜"]]
+    },
+    "烤制的大蒜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "大蒜", null], [null, null, null]],
+        "ingredients": [["大蒜"]]
+    },
+    "切碎的卡宴辣椒": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "卡宴辣椒", null], [null, null, null]],
+        "ingredients": [["卡宴辣椒"]]
+    },
+    "捣碎的卡宴辣椒": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "卡宴辣椒", null], [null, null, null]],
+        "ingredients": [["卡宴辣椒"]]
+    },
+    "切片的卡宴辣椒": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "卡宴辣椒", null], [null, null, null]],
+        "ingredients": [["卡宴辣椒"]]
+    },
+    "剁碎的卡宴辣椒": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "卡宴辣椒", null], [null, null, null]],
+        "ingredients": [["卡宴辣椒"]]
+    },
+    "搅拌的卡宴辣椒": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "卡宴辣椒", null], [null, null, null]],
+        "ingredients": [["卡宴辣椒"]]
+    },
+    "煮熟的卡宴辣椒": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "卡宴辣椒", null], [null, null, null]],
+        "ingredients": [["卡宴辣椒"]]
+    },
+    "油炸的卡宴辣椒": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "卡宴辣椒", null], [null, null, null]],
+        "ingredients": [["卡宴辣椒"]]
+    },
+    "烤制的卡宴辣椒": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "卡宴辣椒", null], [null, null, null]],
+        "ingredients": [["卡宴辣椒"]]
+    },
+    "切碎的番茄": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "番茄", null], [null, null, null]],
+        "ingredients": [["番茄"]]
+    },
+    "捣碎的番茄": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "番茄", null], [null, null, null]],
+        "ingredients": [["番茄"]]
+    },
+    "切片的番茄": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "番茄", null], [null, null, null]],
+        "ingredients": [["番茄"]]
+    },
+    "剁碎的番茄": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "番茄", null], [null, null, null]],
+        "ingredients": [["番茄"]]
+    },
+    "搅拌的番茄": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "番茄", null], [null, null, null]],
+        "ingredients": [["番茄"]]
+    },
+    "煮熟的番茄": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "番茄", null], [null, null, null]],
+        "ingredients": [["番茄"]]
+    },
+    "油炸的番茄": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "番茄", null], [null, null, null]],
+        "ingredients": [["番茄"]]
+    },
+    "烤制的番茄": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "番茄", null], [null, null, null]],
+        "ingredients": [["番茄"]]
+    },
+    "切碎的甜椒": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "甜椒", null], [null, null, null]],
+        "ingredients": [["甜椒"]]
+    },
+    "捣碎的甜椒": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "甜椒", null], [null, null, null]],
+        "ingredients": [["甜椒"]]
+    },
+    "切片的甜椒": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "甜椒", null], [null, null, null]],
+        "ingredients": [["甜椒"]]
+    },
+    "剁碎的甜椒": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "甜椒", null], [null, null, null]],
+        "ingredients": [["甜椒"]]
+    },
+    "搅拌的甜椒": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "甜椒", null], [null, null, null]],
+        "ingredients": [["甜椒"]]
+    },
+    "煮熟的甜椒": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "甜椒", null], [null, null, null]],
+        "ingredients": [["甜椒"]]
+    },
+    "油炸的甜椒": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "甜椒", null], [null, null, null]],
+        "ingredients": [["甜椒"]]
+    },
+    "烤制的甜椒": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "甜椒", null], [null, null, null]],
+        "ingredients": [["甜椒"]]
+    },
+    "切碎的洋葱": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "洋葱", null], [null, null, null]],
+        "ingredients": [["洋葱"]]
+    },
+    "捣碎的洋葱": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "洋葱", null], [null, null, null]],
+        "ingredients": [["洋葱"]]
+    },
+    "切片的洋葱": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "洋葱", null], [null, null, null]],
+        "ingredients": [["洋葱"]]
+    },
+    "剁碎的洋葱": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "洋葱", null], [null, null, null]],
+        "ingredients": [["洋葱"]]
+    },
+    "搅拌的洋葱": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "洋葱", null], [null, null, null]],
+        "ingredients": [["洋葱"]]
+    },
+    "煮熟的洋葱": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "洋葱", null], [null, null, null]],
+        "ingredients": [["洋葱"]]
+    },
+    "油炸的洋葱": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "洋葱", null], [null, null, null]],
+        "ingredients": [["洋葱"]]
+    },
+    "烤制的洋葱": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "洋葱", null], [null, null, null]],
+        "ingredients": [["洋葱"]]
+    },
+    "切碎的豌豆": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "豌豆", null], [null, null, null]],
+        "ingredients": [["豌豆"]]
+    },
+    "捣碎的豌豆": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "豌豆", null], [null, null, null]],
+        "ingredients": [["豌豆"]]
+    },
+    "切片的豌豆": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "豌豆", null], [null, null, null]],
+        "ingredients": [["豌豆"]]
+    },
+    "剁碎的豌豆": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "豌豆", null], [null, null, null]],
+        "ingredients": [["豌豆"]]
+    },
+    "搅拌的豌豆": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "豌豆", null], [null, null, null]],
+        "ingredients": [["豌豆"]]
+    },
+    "煮熟的豌豆": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "豌豆", null], [null, null, null]],
+        "ingredients": [["豌豆"]]
+    },
+    "油炸的豌豆": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "豌豆", null], [null, null, null]],
+        "ingredients": [["豌豆"]]
+    },
+    "烤制的豌豆": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "豌豆", null], [null, null, null]],
+        "ingredients": [["豌豆"]]
+    },
+    "切碎的油菜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "油菜", null], [null, null, null]],
+        "ingredients": [["油菜"]]
+    },
+    "捣碎的油菜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "油菜", null], [null, null, null]],
+        "ingredients": [["油菜"]]
+    },
+    "切片的油菜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "油菜", null], [null, null, null]],
+        "ingredients": [["油菜"]]
+    },
+    "剁碎的油菜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "油菜", null], [null, null, null]],
+        "ingredients": [["油菜"]]
+    },
+    "搅拌的油菜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "油菜", null], [null, null, null]],
+        "ingredients": [["油菜"]]
+    },
+    "煮熟的油菜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "油菜", null], [null, null, null]],
+        "ingredients": [["油菜"]]
+    },
+    "油炸的油菜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "油菜", null], [null, null, null]],
+        "ingredients": [["油菜"]]
+    },
+    "烤制的油菜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "油菜", null], [null, null, null]],
+        "ingredients": [["油菜"]]
+    },
+    "切碎的生菜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "生菜", null], [null, null, null]],
+        "ingredients": [["生菜"]]
+    },
+    "捣碎的生菜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "生菜", null], [null, null, null]],
+        "ingredients": [["生菜"]]
+    },
+    "切片的生菜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "生菜", null], [null, null, null]],
+        "ingredients": [["生菜"]]
+    },
+    "剁碎的生菜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "生菜", null], [null, null, null]],
+        "ingredients": [["生菜"]]
+    },
+    "搅拌的生菜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "生菜", null], [null, null, null]],
+        "ingredients": [["生菜"]]
+    },
+    "煮熟的生菜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "生菜", null], [null, null, null]],
+        "ingredients": [["生菜"]]
+    },
+    "油炸的生菜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "生菜", null], [null, null, null]],
+        "ingredients": [["生菜"]]
+    },
+    "烤制的生菜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "生菜", null], [null, null, null]],
+        "ingredients": [["生菜"]]
+    },
+    "切碎的芥菜种子": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "芥菜种子", null], [null, null, null]],
+        "ingredients": [["芥菜种子"]]
+    },
+    "捣碎的芥菜种子": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "芥菜种子", null], [null, null, null]],
+        "ingredients": [["芥菜种子"]]
+    },
+    "切片的芥菜种子": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "芥菜种子", null], [null, null, null]],
+        "ingredients": [["芥菜种子"]]
+    },
+    "剁碎的芥菜种子": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "芥菜种子", null], [null, null, null]],
+        "ingredients": [["芥菜种子"]]
+    },
+    "搅拌的芥菜种子": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "芥菜种子", null], [null, null, null]],
+        "ingredients": [["芥菜种子"]]
+    },
+    "煮熟的芥菜种子": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "芥菜种子", null], [null, null, null]],
+        "ingredients": [["芥菜种子"]]
+    },
+    "油炸的芥菜种子": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "芥菜种子", null], [null, null, null]],
+        "ingredients": [["芥菜种子"]]
+    },
+    "烤制的芥菜种子": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "芥菜种子", null], [null, null, null]],
+        "ingredients": [["芥菜种子"]]
+    },
+    "切碎的西兰花": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "西兰花", null], [null, null, null]],
+        "ingredients": [["西兰花"]]
+    },
+    "捣碎的西兰花": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "西兰花", null], [null, null, null]],
+        "ingredients": [["西兰花"]]
+    },
+    "切片的西兰花": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "西兰花", null], [null, null, null]],
+        "ingredients": [["西兰花"]]
+    },
+    "剁碎的西兰花": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "西兰花", null], [null, null, null]],
+        "ingredients": [["西兰花"]]
+    },
+    "搅拌的西兰花": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "西兰花", null], [null, null, null]],
+        "ingredients": [["西兰花"]]
+    },
+    "煮熟的西兰花": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "西兰花", null], [null, null, null]],
+        "ingredients": [["西兰花"]]
+    },
+    "油炸的西兰花": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "西兰花", null], [null, null, null]],
+        "ingredients": [["西兰花"]]
+    },
+    "烤制的西兰花": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "西兰花", null], [null, null, null]],
+        "ingredients": [["西兰花"]]
+    },
+    "切碎的肉桂": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "肉桂", null], [null, null, null]],
+        "ingredients": [["肉桂"]]
+    },
+    "捣碎的肉桂": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "肉桂", null], [null, null, null]],
+        "ingredients": [["肉桂"]]
+    },
+    "切片的肉桂": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "肉桂", null], [null, null, null]],
+        "ingredients": [["肉桂"]]
+    },
+    "剁碎的肉桂": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "肉桂", null], [null, null, null]],
+        "ingredients": [["肉桂"]]
+    },
+    "搅拌的肉桂": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "肉桂", null], [null, null, null]],
+        "ingredients": [["肉桂"]]
+    },
+    "煮熟的肉桂": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "肉桂", null], [null, null, null]],
+        "ingredients": [["肉桂"]]
+    },
+    "油炸的肉桂": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "肉桂", null], [null, null, null]],
+        "ingredients": [["肉桂"]]
+    },
+    "烤制的肉桂": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "肉桂", null], [null, null, null]],
+        "ingredients": [["肉桂"]]
+    },
+    "切碎的罗勒": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "罗勒", null], [null, null, null]],
+        "ingredients": [["罗勒"]]
+    },
+    "捣碎的罗勒": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "罗勒", null], [null, null, null]],
+        "ingredients": [["罗勒"]]
+    },
+    "切片的罗勒": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "罗勒", null], [null, null, null]],
+        "ingredients": [["罗勒"]]
+    },
+    "剁碎的罗勒": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "罗勒", null], [null, null, null]],
+        "ingredients": [["罗勒"]]
+    },
+    "搅拌的罗勒": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "罗勒", null], [null, null, null]],
+        "ingredients": [["罗勒"]]
+    },
+    "煮熟的罗勒": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "罗勒", null], [null, null, null]],
+        "ingredients": [["罗勒"]]
+    },
+    "油炸的罗勒": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "罗勒", null], [null, null, null]],
+        "ingredients": [["罗勒"]]
+    },
+    "烤制的罗勒": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "罗勒", null], [null, null, null]],
+        "ingredients": [["罗勒"]]
+    },
+    "切碎的香叶": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "香叶", null], [null, null, null]],
+        "ingredients": [["香叶"]]
+    },
+    "捣碎的香叶": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "香叶", null], [null, null, null]],
+        "ingredients": [["香叶"]]
+    },
+    "切片的香叶": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "香叶", null], [null, null, null]],
+        "ingredients": [["香叶"]]
+    },
+    "剁碎的香叶": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "香叶", null], [null, null, null]],
+        "ingredients": [["香叶"]]
+    },
+    "搅拌的香叶": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "香叶", null], [null, null, null]],
+        "ingredients": [["香叶"]]
+    },
+    "煮熟的香叶": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "香叶", null], [null, null, null]],
+        "ingredients": [["香叶"]]
+    },
+    "油炸的香叶": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "香叶", null], [null, null, null]],
+        "ingredients": [["香叶"]]
+    },
+    "烤制的香叶": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "香叶", null], [null, null, null]],
+        "ingredients": [["香叶"]]
+    },
+    "切碎的香菜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "香菜", null], [null, null, null]],
+        "ingredients": [["香菜"]]
+    },
+    "捣碎的香菜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "香菜", null], [null, null, null]],
+        "ingredients": [["香菜"]]
+    },
+    "切片的香菜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "香菜", null], [null, null, null]],
+        "ingredients": [["香菜"]]
+    },
+    "剁碎的香菜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "香菜", null], [null, null, null]],
+        "ingredients": [["香菜"]]
+    },
+    "搅拌的香菜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "香菜", null], [null, null, null]],
+        "ingredients": [["香菜"]]
+    },
+    "煮熟的香菜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "香菜", null], [null, null, null]],
+        "ingredients": [["香菜"]]
+    },
+    "油炸的香菜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "香菜", null], [null, null, null]],
+        "ingredients": [["香菜"]]
+    },
+    "烤制的香菜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "香菜", null], [null, null, null]],
+        "ingredients": [["香菜"]]
+    },
+    "切碎的菊苣": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "菊苣", null], [null, null, null]],
+        "ingredients": [["菊苣"]]
+    },
+    "捣碎的菊苣": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "菊苣", null], [null, null, null]],
+        "ingredients": [["菊苣"]]
+    },
+    "切片的菊苣": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "菊苣", null], [null, null, null]],
+        "ingredients": [["菊苣"]]
+    },
+    "剁碎的菊苣": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "菊苣", null], [null, null, null]],
+        "ingredients": [["菊苣"]]
+    },
+    "搅拌的菊苣": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "菊苣", null], [null, null, null]],
+        "ingredients": [["菊苣"]]
+    },
+    "煮熟的菊苣": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "菊苣", null], [null, null, null]],
+        "ingredients": [["菊苣"]]
+    },
+    "油炸的菊苣": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "菊苣", null], [null, null, null]],
+        "ingredients": [["菊苣"]]
+    },
+    "烤制的菊苣": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "菊苣", null], [null, null, null]],
+        "ingredients": [["菊苣"]]
+    },
+    "切碎的韭菜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "韭菜", null], [null, null, null]],
+        "ingredients": [["韭菜"]]
+    },
+    "捣碎的韭菜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "韭菜", null], [null, null, null]],
+        "ingredients": [["韭菜"]]
+    },
+    "切片的韭菜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "韭菜", null], [null, null, null]],
+        "ingredients": [["韭菜"]]
+    },
+    "剁碎的韭菜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "韭菜", null], [null, null, null]],
+        "ingredients": [["韭菜"]]
+    },
+    "搅拌的韭菜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "韭菜", null], [null, null, null]],
+        "ingredients": [["韭菜"]]
+    },
+    "煮熟的韭菜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "韭菜", null], [null, null, null]],
+        "ingredients": [["韭菜"]]
+    },
+    "油炸的韭菜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "韭菜", null], [null, null, null]],
+        "ingredients": [["韭菜"]]
+    },
+    "烤制的韭菜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "韭菜", null], [null, null, null]],
+        "ingredients": [["韭菜"]]
+    },
+    "切碎的丁香": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "丁香", null], [null, null, null]],
+        "ingredients": [["丁香"]]
+    },
+    "捣碎的丁香": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "丁香", null], [null, null, null]],
+        "ingredients": [["丁香"]]
+    },
+    "切片的丁香": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "丁香", null], [null, null, null]],
+        "ingredients": [["丁香"]]
+    },
+    "剁碎的丁香": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "丁香", null], [null, null, null]],
+        "ingredients": [["丁香"]]
+    },
+    "搅拌的丁香": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "丁香", null], [null, null, null]],
+        "ingredients": [["丁香"]]
+    },
+    "煮熟的丁香": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "丁香", null], [null, null, null]],
+        "ingredients": [["丁香"]]
+    },
+    "油炸的丁香": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "丁香", null], [null, null, null]],
+        "ingredients": [["丁香"]]
+    },
+    "烤制的丁香": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "丁香", null], [null, null, null]],
+        "ingredients": [["丁香"]]
+    },
+    "切碎的孜然": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "孜然", null], [null, null, null]],
+        "ingredients": [["孜然"]]
+    },
+    "捣碎的孜然": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "孜然", null], [null, null, null]],
+        "ingredients": [["孜然"]]
+    },
+    "切片的孜然": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "孜然", null], [null, null, null]],
+        "ingredients": [["孜然"]]
+    },
+    "剁碎的孜然": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "孜然", null], [null, null, null]],
+        "ingredients": [["孜然"]]
+    },
+    "搅拌的孜然": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "孜然", null], [null, null, null]],
+        "ingredients": [["孜然"]]
+    },
+    "煮熟的孜然": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "孜然", null], [null, null, null]],
+        "ingredients": [["孜然"]]
+    },
+    "油炸的孜然": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "孜然", null], [null, null, null]],
+        "ingredients": [["孜然"]]
+    },
+    "烤制的孜然": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "孜然", null], [null, null, null]],
+        "ingredients": [["孜然"]]
+    },
+    "切碎的辣椒": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "辣椒", null], [null, null, null]],
+        "ingredients": [["辣椒"]]
+    },
+    "捣碎的辣椒": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "辣椒", null], [null, null, null]],
+        "ingredients": [["辣椒"]]
+    },
+    "切片的辣椒": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "辣椒", null], [null, null, null]],
+        "ingredients": [["辣椒"]]
+    },
+    "剁碎的辣椒": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "辣椒", null], [null, null, null]],
+        "ingredients": [["辣椒"]]
+    },
+    "搅拌的辣椒": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "辣椒", null], [null, null, null]],
+        "ingredients": [["辣椒"]]
+    },
+    "煮熟的辣椒": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "辣椒", null], [null, null, null]],
+        "ingredients": [["辣椒"]]
+    },
+    "油炸的辣椒": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "辣椒", null], [null, null, null]],
+        "ingredients": [["辣椒"]]
+    },
+    "烤制的辣椒": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "辣椒", null], [null, null, null]],
+        "ingredients": [["辣椒"]]
+    },
+    "切碎的咖喱叶": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "咖喱叶", null], [null, null, null]],
+        "ingredients": [["咖喱叶"]]
+    },
+    "捣碎的咖喱叶": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "咖喱叶", null], [null, null, null]],
+        "ingredients": [["咖喱叶"]]
+    },
+    "切片的咖喱叶": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "咖喱叶", null], [null, null, null]],
+        "ingredients": [["咖喱叶"]]
+    },
+    "剁碎的咖喱叶": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "咖喱叶", null], [null, null, null]],
+        "ingredients": [["咖喱叶"]]
+    },
+    "搅拌的咖喱叶": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "咖喱叶", null], [null, null, null]],
+        "ingredients": [["咖喱叶"]]
+    },
+    "煮熟的咖喱叶": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "咖喱叶", null], [null, null, null]],
+        "ingredients": [["咖喱叶"]]
+    },
+    "油炸的咖喱叶": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "咖喱叶", null], [null, null, null]],
+        "ingredients": [["咖喱叶"]]
+    },
+    "烤制的咖喱叶": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "咖喱叶", null], [null, null, null]],
+        "ingredients": [["咖喱叶"]]
+    },
+    "切碎的莳萝": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "莳萝", null], [null, null, null]],
+        "ingredients": [["莳萝"]]
+    },
+    "捣碎的莳萝": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "莳萝", null], [null, null, null]],
+        "ingredients": [["莳萝"]]
+    },
+    "切片的莳萝": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "莳萝", null], [null, null, null]],
+        "ingredients": [["莳萝"]]
+    },
+    "剁碎的莳萝": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "莳萝", null], [null, null, null]],
+        "ingredients": [["莳萝"]]
+    },
+    "搅拌的莳萝": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "莳萝", null], [null, null, null]],
+        "ingredients": [["莳萝"]]
+    },
+    "煮熟的莳萝": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "莳萝", null], [null, null, null]],
+        "ingredients": [["莳萝"]]
+    },
+    "油炸的莳萝": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "莳萝", null], [null, null, null]],
+        "ingredients": [["莳萝"]]
+    },
+    "烤制的莳萝": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "莳萝", null], [null, null, null]],
+        "ingredients": [["莳萝"]]
+    },
+    "切碎的茴香": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "茴香", null], [null, null, null]],
+        "ingredients": [["茴香"]]
+    },
+    "捣碎的茴香": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "茴香", null], [null, null, null]],
+        "ingredients": [["茴香"]]
+    },
+    "切片的茴香": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "茴香", null], [null, null, null]],
+        "ingredients": [["茴香"]]
+    },
+    "剁碎的茴香": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "茴香", null], [null, null, null]],
+        "ingredients": [["茴香"]]
+    },
+    "搅拌的茴香": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "茴香", null], [null, null, null]],
+        "ingredients": [["茴香"]]
+    },
+    "煮熟的茴香": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "茴香", null], [null, null, null]],
+        "ingredients": [["茴香"]]
+    },
+    "油炸的茴香": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "茴香", null], [null, null, null]],
+        "ingredients": [["茴香"]]
+    },
+    "烤制的茴香": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "茴香", null], [null, null, null]],
+        "ingredients": [["茴香"]]
+    },
+    "切碎的姜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "姜", null], [null, null, null]],
+        "ingredients": [["姜"]]
+    },
+    "捣碎的姜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "姜", null], [null, null, null]],
+        "ingredients": [["姜"]]
+    },
+    "切片的姜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "姜", null], [null, null, null]],
+        "ingredients": [["姜"]]
+    },
+    "剁碎的姜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "姜", null], [null, null, null]],
+        "ingredients": [["姜"]]
+    },
+    "搅拌的姜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "姜", null], [null, null, null]],
+        "ingredients": [["姜"]]
+    },
+    "煮熟的姜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "姜", null], [null, null, null]],
+        "ingredients": [["姜"]]
+    },
+    "油炸的姜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "姜", null], [null, null, null]],
+        "ingredients": [["姜"]]
+    },
+    "烤制的姜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "姜", null], [null, null, null]],
+        "ingredients": [["姜"]]
+    },
+    "切碎的辣根": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "辣根", null], [null, null, null]],
+        "ingredients": [["辣根"]]
+    },
+    "捣碎的辣根": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "辣根", null], [null, null, null]],
+        "ingredients": [["辣根"]]
+    },
+    "切片的辣根": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "辣根", null], [null, null, null]],
+        "ingredients": [["辣根"]]
+    },
+    "剁碎的辣根": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "辣根", null], [null, null, null]],
+        "ingredients": [["辣根"]]
+    },
+    "搅拌的辣根": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "辣根", null], [null, null, null]],
+        "ingredients": [["辣根"]]
+    },
+    "煮熟的辣根": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "辣根", null], [null, null, null]],
+        "ingredients": [["辣根"]]
+    },
+    "油炸的辣根": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "辣根", null], [null, null, null]],
+        "ingredients": [["辣根"]]
+    },
+    "烤制的辣根": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "辣根", null], [null, null, null]],
+        "ingredients": [["辣根"]]
+    },
+    "切碎的茉莉": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "茉莉", null], [null, null, null]],
+        "ingredients": [["茉莉"]]
+    },
+    "捣碎的茉莉": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "茉莉", null], [null, null, null]],
+        "ingredients": [["茉莉"]]
+    },
+    "切片的茉莉": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "茉莉", null], [null, null, null]],
+        "ingredients": [["茉莉"]]
+    },
+    "剁碎的茉莉": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "茉莉", null], [null, null, null]],
+        "ingredients": [["茉莉"]]
+    },
+    "搅拌的茉莉": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "茉莉", null], [null, null, null]],
+        "ingredients": [["茉莉"]]
+    },
+    "煮熟的茉莉": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "茉莉", null], [null, null, null]],
+        "ingredients": [["茉莉"]]
+    },
+    "油炸的茉莉": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "茉莉", null], [null, null, null]],
+        "ingredients": [["茉莉"]]
+    },
+    "烤制的茉莉": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "茉莉", null], [null, null, null]],
+        "ingredients": [["茉莉"]]
+    },
+    "切碎的杜松子": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "杜松子", null], [null, null, null]],
+        "ingredients": [["杜松子"]]
+    },
+    "捣碎的杜松子": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "杜松子", null], [null, null, null]],
+        "ingredients": [["杜松子"]]
+    },
+    "切片的杜松子": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "杜松子", null], [null, null, null]],
+        "ingredients": [["杜松子"]]
+    },
+    "剁碎的杜松子": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "杜松子", null], [null, null, null]],
+        "ingredients": [["杜松子"]]
+    },
+    "搅拌的杜松子": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "杜松子", null], [null, null, null]],
+        "ingredients": [["杜松子"]]
+    },
+    "煮熟的杜松子": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "杜松子", null], [null, null, null]],
+        "ingredients": [["杜松子"]]
+    },
+    "油炸的杜松子": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "杜松子", null], [null, null, null]],
+        "ingredients": [["杜松子"]]
+    },
+    "烤制的杜松子": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "杜松子", null], [null, null, null]],
+        "ingredients": [["杜松子"]]
+    },
+    "切碎的泰国青柠叶": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "泰国青柠叶", null], [null, null, null]],
+        "ingredients": [["泰国青柠叶"]]
+    },
+    "捣碎的泰国青柠叶": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "泰国青柠叶", null], [null, null, null]],
+        "ingredients": [["泰国青柠叶"]]
+    },
+    "切片的泰国青柠叶": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "泰国青柠叶", null], [null, null, null]],
+        "ingredients": [["泰国青柠叶"]]
+    },
+    "剁碎的泰国青柠叶": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "泰国青柠叶", null], [null, null, null]],
+        "ingredients": [["泰国青柠叶"]]
+    },
+    "搅拌的泰国青柠叶": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "泰国青柠叶", null], [null, null, null]],
+        "ingredients": [["泰国青柠叶"]]
+    },
+    "煮熟的泰国青柠叶": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "泰国青柠叶", null], [null, null, null]],
+        "ingredients": [["泰国青柠叶"]]
+    },
+    "油炸的泰国青柠叶": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "泰国青柠叶", null], [null, null, null]],
+        "ingredients": [["泰国青柠叶"]]
+    },
+    "烤制的泰国青柠叶": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "泰国青柠叶", null], [null, null, null]],
+        "ingredients": [["泰国青柠叶"]]
+    },
+    "切碎的薰衣草": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "薰衣草", null], [null, null, null]],
+        "ingredients": [["薰衣草"]]
+    },
+    "捣碎的薰衣草": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "薰衣草", null], [null, null, null]],
+        "ingredients": [["薰衣草"]]
+    },
+    "切片的薰衣草": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "薰衣草", null], [null, null, null]],
+        "ingredients": [["薰衣草"]]
+    },
+    "剁碎的薰衣草": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "薰衣草", null], [null, null, null]],
+        "ingredients": [["薰衣草"]]
+    },
+    "搅拌的薰衣草": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "薰衣草", null], [null, null, null]],
+        "ingredients": [["薰衣草"]]
+    },
+    "煮熟的薰衣草": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "薰衣草", null], [null, null, null]],
+        "ingredients": [["薰衣草"]]
+    },
+    "油炸的薰衣草": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "薰衣草", null], [null, null, null]],
+        "ingredients": [["薰衣草"]]
+    },
+    "烤制的薰衣草": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "薰衣草", null], [null, null, null]],
+        "ingredients": [["薰衣草"]]
+    },
+    "切碎的甘草": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "甘草", null], [null, null, null]],
+        "ingredients": [["甘草"]]
+    },
+    "捣碎的甘草": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "甘草", null], [null, null, null]],
+        "ingredients": [["甘草"]]
+    },
+    "切片的甘草": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "甘草", null], [null, null, null]],
+        "ingredients": [["甘草"]]
+    },
+    "剁碎的甘草": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "甘草", null], [null, null, null]],
+        "ingredients": [["甘草"]]
+    },
+    "搅拌的甘草": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "甘草", null], [null, null, null]],
+        "ingredients": [["甘草"]]
+    },
+    "煮熟的甘草": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "甘草", null], [null, null, null]],
+        "ingredients": [["甘草"]]
+    },
+    "油炸的甘草": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "甘草", null], [null, null, null]],
+        "ingredients": [["甘草"]]
+    },
+    "烤制的甘草": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "甘草", null], [null, null, null]],
+        "ingredients": [["甘草"]]
+    },
+    "切碎的肉豆蔻": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "肉豆蔻", null], [null, null, null]],
+        "ingredients": [["肉豆蔻"]]
+    },
+    "捣碎的肉豆蔻": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "肉豆蔻", null], [null, null, null]],
+        "ingredients": [["肉豆蔻"]]
+    },
+    "切片的肉豆蔻": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "肉豆蔻", null], [null, null, null]],
+        "ingredients": [["肉豆蔻"]]
+    },
+    "剁碎的肉豆蔻": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "肉豆蔻", null], [null, null, null]],
+        "ingredients": [["肉豆蔻"]]
+    },
+    "搅拌的肉豆蔻": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "肉豆蔻", null], [null, null, null]],
+        "ingredients": [["肉豆蔻"]]
+    },
+    "煮熟的肉豆蔻": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "肉豆蔻", null], [null, null, null]],
+        "ingredients": [["肉豆蔻"]]
+    },
+    "油炸的肉豆蔻": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "肉豆蔻", null], [null, null, null]],
+        "ingredients": [["肉豆蔻"]]
+    },
+    "烤制的肉豆蔻": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "肉豆蔻", null], [null, null, null]],
+        "ingredients": [["肉豆蔻"]]
+    },
+    "切碎的马郁兰": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "马郁兰", null], [null, null, null]],
+        "ingredients": [["马郁兰"]]
+    },
+    "捣碎的马郁兰": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "马郁兰", null], [null, null, null]],
+        "ingredients": [["马郁兰"]]
+    },
+    "切片的马郁兰": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "马郁兰", null], [null, null, null]],
+        "ingredients": [["马郁兰"]]
+    },
+    "剁碎的马郁兰": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "马郁兰", null], [null, null, null]],
+        "ingredients": [["马郁兰"]]
+    },
+    "搅拌的马郁兰": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "马郁兰", null], [null, null, null]],
+        "ingredients": [["马郁兰"]]
+    },
+    "煮熟的马郁兰": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "马郁兰", null], [null, null, null]],
+        "ingredients": [["马郁兰"]]
+    },
+    "油炸的马郁兰": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "马郁兰", null], [null, null, null]],
+        "ingredients": [["马郁兰"]]
+    },
+    "烤制的马郁兰": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "马郁兰", null], [null, null, null]],
+        "ingredients": [["马郁兰"]]
+    },
+    "切碎的薄荷": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "薄荷", null], [null, null, null]],
+        "ingredients": [["薄荷"]]
+    },
+    "捣碎的薄荷": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "薄荷", null], [null, null, null]],
+        "ingredients": [["薄荷"]]
+    },
+    "切片的薄荷": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "薄荷", null], [null, null, null]],
+        "ingredients": [["薄荷"]]
+    },
+    "剁碎的薄荷": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "薄荷", null], [null, null, null]],
+        "ingredients": [["薄荷"]]
+    },
+    "搅拌的薄荷": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "薄荷", null], [null, null, null]],
+        "ingredients": [["薄荷"]]
+    },
+    "煮熟的薄荷": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "薄荷", null], [null, null, null]],
+        "ingredients": [["薄荷"]]
+    },
+    "油炸的薄荷": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "薄荷", null], [null, null, null]],
+        "ingredients": [["薄荷"]]
+    },
+    "烤制的薄荷": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "薄荷", null], [null, null, null]],
+        "ingredients": [["薄荷"]]
+    },
+    "切碎的牛至": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "牛至", null], [null, null, null]],
+        "ingredients": [["牛至"]]
+    },
+    "捣碎的牛至": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "牛至", null], [null, null, null]],
+        "ingredients": [["牛至"]]
+    },
+    "切片的牛至": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "牛至", null], [null, null, null]],
+        "ingredients": [["牛至"]]
+    },
+    "剁碎的牛至": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "牛至", null], [null, null, null]],
+        "ingredients": [["牛至"]]
+    },
+    "搅拌的牛至": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "牛至", null], [null, null, null]],
+        "ingredients": [["牛至"]]
+    },
+    "煮熟的牛至": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "牛至", null], [null, null, null]],
+        "ingredients": [["牛至"]]
+    },
+    "油炸的牛至": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "牛至", null], [null, null, null]],
+        "ingredients": [["牛至"]]
+    },
+    "烤制的牛至": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "牛至", null], [null, null, null]],
+        "ingredients": [["牛至"]]
+    },
+    "切碎的欧芹": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "欧芹", null], [null, null, null]],
+        "ingredients": [["欧芹"]]
+    },
+    "捣碎的欧芹": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "欧芹", null], [null, null, null]],
+        "ingredients": [["欧芹"]]
+    },
+    "切片的欧芹": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "欧芹", null], [null, null, null]],
+        "ingredients": [["欧芹"]]
+    },
+    "剁碎的欧芹": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "欧芹", null], [null, null, null]],
+        "ingredients": [["欧芹"]]
+    },
+    "搅拌的欧芹": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "欧芹", null], [null, null, null]],
+        "ingredients": [["欧芹"]]
+    },
+    "煮熟的欧芹": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "欧芹", null], [null, null, null]],
+        "ingredients": [["欧芹"]]
+    },
+    "油炸的欧芹": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "欧芹", null], [null, null, null]],
+        "ingredients": [["欧芹"]]
+    },
+    "烤制的欧芹": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "欧芹", null], [null, null, null]],
+        "ingredients": [["欧芹"]]
+    },
+    "切碎的迷迭香": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "迷迭香", null], [null, null, null]],
+        "ingredients": [["迷迭香"]]
+    },
+    "捣碎的迷迭香": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "迷迭香", null], [null, null, null]],
+        "ingredients": [["迷迭香"]]
+    },
+    "切片的迷迭香": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "迷迭香", null], [null, null, null]],
+        "ingredients": [["迷迭香"]]
+    },
+    "剁碎的迷迭香": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "迷迭香", null], [null, null, null]],
+        "ingredients": [["迷迭香"]]
+    },
+    "搅拌的迷迭香": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "迷迭香", null], [null, null, null]],
+        "ingredients": [["迷迭香"]]
+    },
+    "煮熟的迷迭香": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "迷迭香", null], [null, null, null]],
+        "ingredients": [["迷迭香"]]
+    },
+    "油炸的迷迭香": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "迷迭香", null], [null, null, null]],
+        "ingredients": [["迷迭香"]]
+    },
+    "烤制的迷迭香": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "迷迭香", null], [null, null, null]],
+        "ingredients": [["迷迭香"]]
+    },
+    "切碎的黄樟": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "黄樟", null], [null, null, null]],
+        "ingredients": [["黄樟"]]
+    },
+    "捣碎的黄樟": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "黄樟", null], [null, null, null]],
+        "ingredients": [["黄樟"]]
+    },
+    "切片的黄樟": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "黄樟", null], [null, null, null]],
+        "ingredients": [["黄樟"]]
+    },
+    "剁碎的黄樟": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "黄樟", null], [null, null, null]],
+        "ingredients": [["黄樟"]]
+    },
+    "搅拌的黄樟": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "黄樟", null], [null, null, null]],
+        "ingredients": [["黄樟"]]
+    },
+    "煮熟的黄樟": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "黄樟", null], [null, null, null]],
+        "ingredients": [["黄樟"]]
+    },
+    "油炸的黄樟": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "黄樟", null], [null, null, null]],
+        "ingredients": [["黄樟"]]
+    },
+    "烤制的黄樟": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "黄樟", null], [null, null, null]],
+        "ingredients": [["黄樟"]]
+    },
+    "切碎的紫苏": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "紫苏", null], [null, null, null]],
+        "ingredients": [["紫苏"]]
+    },
+    "捣碎的紫苏": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "紫苏", null], [null, null, null]],
+        "ingredients": [["紫苏"]]
+    },
+    "切片的紫苏": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "紫苏", null], [null, null, null]],
+        "ingredients": [["紫苏"]]
+    },
+    "剁碎的紫苏": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "紫苏", null], [null, null, null]],
+        "ingredients": [["紫苏"]]
+    },
+    "搅拌的紫苏": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "紫苏", null], [null, null, null]],
+        "ingredients": [["紫苏"]]
+    },
+    "煮熟的紫苏": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "紫苏", null], [null, null, null]],
+        "ingredients": [["紫苏"]]
+    },
+    "油炸的紫苏": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "紫苏", null], [null, null, null]],
+        "ingredients": [["紫苏"]]
+    },
+    "烤制的紫苏": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "紫苏", null], [null, null, null]],
+        "ingredients": [["紫苏"]]
+    },
+    "切碎的八角": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "八角", null], [null, null, null]],
+        "ingredients": [["八角"]]
+    },
+    "捣碎的八角": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "八角", null], [null, null, null]],
+        "ingredients": [["八角"]]
+    },
+    "切片的八角": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "八角", null], [null, null, null]],
+        "ingredients": [["八角"]]
+    },
+    "剁碎的八角": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "八角", null], [null, null, null]],
+        "ingredients": [["八角"]]
+    },
+    "搅拌的八角": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "八角", null], [null, null, null]],
+        "ingredients": [["八角"]]
+    },
+    "煮熟的八角": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "八角", null], [null, null, null]],
+        "ingredients": [["八角"]]
+    },
+    "油炸的八角": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "八角", null], [null, null, null]],
+        "ingredients": [["八角"]]
+    },
+    "烤制的八角": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "八角", null], [null, null, null]],
+        "ingredients": [["八角"]]
+    },
+    "切碎的龙蒿": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "龙蒿", null], [null, null, null]],
+        "ingredients": [["龙蒿"]]
+    },
+    "捣碎的龙蒿": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "龙蒿", null], [null, null, null]],
+        "ingredients": [["龙蒿"]]
+    },
+    "切片的龙蒿": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "龙蒿", null], [null, null, null]],
+        "ingredients": [["龙蒿"]]
+    },
+    "剁碎的龙蒿": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "龙蒿", null], [null, null, null]],
+        "ingredients": [["龙蒿"]]
+    },
+    "搅拌的龙蒿": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "龙蒿", null], [null, null, null]],
+        "ingredients": [["龙蒿"]]
+    },
+    "煮熟的龙蒿": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "龙蒿", null], [null, null, null]],
+        "ingredients": [["龙蒿"]]
+    },
+    "油炸的龙蒿": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "龙蒿", null], [null, null, null]],
+        "ingredients": [["龙蒿"]]
+    },
+    "烤制的龙蒿": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "龙蒿", null], [null, null, null]],
+        "ingredients": [["龙蒿"]]
+    },
+    "切碎的百里香": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "百里香", null], [null, null, null]],
+        "ingredients": [["百里香"]]
+    },
+    "捣碎的百里香": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "百里香", null], [null, null, null]],
+        "ingredients": [["百里香"]]
+    },
+    "切片的百里香": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "百里香", null], [null, null, null]],
+        "ingredients": [["百里香"]]
+    },
+    "剁碎的百里香": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "百里香", null], [null, null, null]],
+        "ingredients": [["百里香"]]
+    },
+    "搅拌的百里香": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "百里香", null], [null, null, null]],
+        "ingredients": [["百里香"]]
+    },
+    "煮熟的百里香": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "百里香", null], [null, null, null]],
+        "ingredients": [["百里香"]]
+    },
+    "油炸的百里香": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "百里香", null], [null, null, null]],
+        "ingredients": [["百里香"]]
+    },
+    "烤制的百里香": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "百里香", null], [null, null, null]],
+        "ingredients": [["百里香"]]
+    },
+    "切碎的姜黄": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "姜黄", null], [null, null, null]],
+        "ingredients": [["姜黄"]]
+    },
+    "捣碎的姜黄": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "姜黄", null], [null, null, null]],
+        "ingredients": [["姜黄"]]
+    },
+    "切片的姜黄": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "姜黄", null], [null, null, null]],
+        "ingredients": [["姜黄"]]
+    },
+    "剁碎的姜黄": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "姜黄", null], [null, null, null]],
+        "ingredients": [["姜黄"]]
+    },
+    "搅拌的姜黄": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "姜黄", null], [null, null, null]],
+        "ingredients": [["姜黄"]]
+    },
+    "煮熟的姜黄": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "姜黄", null], [null, null, null]],
+        "ingredients": [["姜黄"]]
+    },
+    "油炸的姜黄": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "姜黄", null], [null, null, null]],
+        "ingredients": [["姜黄"]]
+    },
+    "烤制的姜黄": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "姜黄", null], [null, null, null]],
+        "ingredients": [["姜黄"]]
+    },
+    "切碎的香子兰": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "香子兰", null], [null, null, null]],
+        "ingredients": [["香子兰"]]
+    },
+    "捣碎的香子兰": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "香子兰", null], [null, null, null]],
+        "ingredients": [["香子兰"]]
+    },
+    "切片的香子兰": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "香子兰", null], [null, null, null]],
+        "ingredients": [["香子兰"]]
+    },
+    "剁碎的香子兰": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "香子兰", null], [null, null, null]],
+        "ingredients": [["香子兰"]]
+    },
+    "搅拌的香子兰": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "香子兰", null], [null, null, null]],
+        "ingredients": [["香子兰"]]
+    },
+    "煮熟的香子兰": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "香子兰", null], [null, null, null]],
+        "ingredients": [["香子兰"]]
+    },
+    "油炸的香子兰": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "香子兰", null], [null, null, null]],
+        "ingredients": [["香子兰"]]
+    },
+    "烤制的香子兰": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "香子兰", null], [null, null, null]],
+        "ingredients": [["香子兰"]]
+    },
+    "切碎的山萮菜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "山萮菜", null], [null, null, null]],
+        "ingredients": [["山萮菜"]]
+    },
+    "捣碎的山萮菜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "山萮菜", null], [null, null, null]],
+        "ingredients": [["山萮菜"]]
+    },
+    "切片的山萮菜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "山萮菜", null], [null, null, null]],
+        "ingredients": [["山萮菜"]]
+    },
+    "剁碎的山萮菜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "山萮菜", null], [null, null, null]],
+        "ingredients": [["山萮菜"]]
+    },
+    "搅拌的山萮菜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "山萮菜", null], [null, null, null]],
+        "ingredients": [["山萮菜"]]
+    },
+    "煮熟的山萮菜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "山萮菜", null], [null, null, null]],
+        "ingredients": [["山萮菜"]]
+    },
+    "油炸的山萮菜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "山萮菜", null], [null, null, null]],
+        "ingredients": [["山萮菜"]]
+    },
+    "烤制的山萮菜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "山萮菜", null], [null, null, null]],
+        "ingredients": [["山萮菜"]]
+    },
+    "切碎的洋蓟": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "洋蓟", null], [null, null, null]],
+        "ingredients": [["洋蓟"]]
+    },
+    "捣碎的洋蓟": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "洋蓟", null], [null, null, null]],
+        "ingredients": [["洋蓟"]]
+    },
+    "切片的洋蓟": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "洋蓟", null], [null, null, null]],
+        "ingredients": [["洋蓟"]]
+    },
+    "剁碎的洋蓟": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "洋蓟", null], [null, null, null]],
+        "ingredients": [["洋蓟"]]
+    },
+    "搅拌的洋蓟": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "洋蓟", null], [null, null, null]],
+        "ingredients": [["洋蓟"]]
+    },
+    "煮熟的洋蓟": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "洋蓟", null], [null, null, null]],
+        "ingredients": [["洋蓟"]]
+    },
+    "油炸的洋蓟": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "洋蓟", null], [null, null, null]],
+        "ingredients": [["洋蓟"]]
+    },
+    "烤制的洋蓟": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "洋蓟", null], [null, null, null]],
+        "ingredients": [["洋蓟"]]
+    },
+    "切碎的茄冰蕉": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "茄冰蕉", null], [null, null, null]],
+        "ingredients": [["茄冰蕉"]]
+    },
+    "捣碎的茄冰蕉": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "茄冰蕉", null], [null, null, null]],
+        "ingredients": [["茄冰蕉"]]
+    },
+    "切片的茄冰蕉": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "茄冰蕉", null], [null, null, null]],
+        "ingredients": [["茄冰蕉"]]
+    },
+    "剁碎的茄冰蕉": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "茄冰蕉", null], [null, null, null]],
+        "ingredients": [["茄冰蕉"]]
+    },
+    "搅拌的茄冰蕉": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "茄冰蕉", null], [null, null, null]],
+        "ingredients": [["茄冰蕉"]]
+    },
+    "煮熟的茄冰蕉": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "茄冰蕉", null], [null, null, null]],
+        "ingredients": [["茄冰蕉"]]
+    },
+    "油炸的茄冰蕉": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "茄冰蕉", null], [null, null, null]],
+        "ingredients": [["茄冰蕉"]]
+    },
+    "烤制的茄冰蕉": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "茄冰蕉", null], [null, null, null]],
+        "ingredients": [["茄冰蕉"]]
+    },
+    "切碎的芦笋": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "芦笋", null], [null, null, null]],
+        "ingredients": [["芦笋"]]
+    },
+    "捣碎的芦笋": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "芦笋", null], [null, null, null]],
+        "ingredients": [["芦笋"]]
+    },
+    "切片的芦笋": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "芦笋", null], [null, null, null]],
+        "ingredients": [["芦笋"]]
+    },
+    "剁碎的芦笋": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "芦笋", null], [null, null, null]],
+        "ingredients": [["芦笋"]]
+    },
+    "搅拌的芦笋": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "芦笋", null], [null, null, null]],
+        "ingredients": [["芦笋"]]
+    },
+    "煮熟的芦笋": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "芦笋", null], [null, null, null]],
+        "ingredients": [["芦笋"]]
+    },
+    "油炸的芦笋": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "芦笋", null], [null, null, null]],
+        "ingredients": [["芦笋"]]
+    },
+    "烤制的芦笋": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "芦笋", null], [null, null, null]],
+        "ingredients": [["芦笋"]]
+    },
+    "切碎的球芽甘蓝": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "球芽甘蓝", null], [null, null, null]],
+        "ingredients": [["球芽甘蓝"]]
+    },
+    "捣碎的球芽甘蓝": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "球芽甘蓝", null], [null, null, null]],
+        "ingredients": [["球芽甘蓝"]]
+    },
+    "切片的球芽甘蓝": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "球芽甘蓝", null], [null, null, null]],
+        "ingredients": [["球芽甘蓝"]]
+    },
+    "剁碎的球芽甘蓝": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "球芽甘蓝", null], [null, null, null]],
+        "ingredients": [["球芽甘蓝"]]
+    },
+    "搅拌的球芽甘蓝": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "球芽甘蓝", null], [null, null, null]],
+        "ingredients": [["球芽甘蓝"]]
+    },
+    "煮熟的球芽甘蓝": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "球芽甘蓝", null], [null, null, null]],
+        "ingredients": [["球芽甘蓝"]]
+    },
+    "油炸的球芽甘蓝": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "球芽甘蓝", null], [null, null, null]],
+        "ingredients": [["球芽甘蓝"]]
+    },
+    "烤制的球芽甘蓝": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "球芽甘蓝", null], [null, null, null]],
+        "ingredients": [["球芽甘蓝"]]
+    },
+    "切碎的卷心菜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "卷心菜", null], [null, null, null]],
+        "ingredients": [["卷心菜"]]
+    },
+    "捣碎的卷心菜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "卷心菜", null], [null, null, null]],
+        "ingredients": [["卷心菜"]]
+    },
+    "切片的卷心菜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "卷心菜", null], [null, null, null]],
+        "ingredients": [["卷心菜"]]
+    },
+    "剁碎的卷心菜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "卷心菜", null], [null, null, null]],
+        "ingredients": [["卷心菜"]]
+    },
+    "搅拌的卷心菜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "卷心菜", null], [null, null, null]],
+        "ingredients": [["卷心菜"]]
+    },
+    "煮熟的卷心菜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "卷心菜", null], [null, null, null]],
+        "ingredients": [["卷心菜"]]
+    },
+    "油炸的卷心菜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "卷心菜", null], [null, null, null]],
+        "ingredients": [["卷心菜"]]
+    },
+    "烤制的卷心菜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "卷心菜", null], [null, null, null]],
+        "ingredients": [["卷心菜"]]
+    },
+    "切碎的花椰菜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "花椰菜", null], [null, null, null]],
+        "ingredients": [["花椰菜"]]
+    },
+    "捣碎的花椰菜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "花椰菜", null], [null, null, null]],
+        "ingredients": [["花椰菜"]]
+    },
+    "切片的花椰菜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "花椰菜", null], [null, null, null]],
+        "ingredients": [["花椰菜"]]
+    },
+    "剁碎的花椰菜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "花椰菜", null], [null, null, null]],
+        "ingredients": [["花椰菜"]]
+    },
+    "搅拌的花椰菜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "花椰菜", null], [null, null, null]],
+        "ingredients": [["花椰菜"]]
+    },
+    "煮熟的花椰菜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "花椰菜", null], [null, null, null]],
+        "ingredients": [["花椰菜"]]
+    },
+    "油炸的花椰菜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "花椰菜", null], [null, null, null]],
+        "ingredients": [["花椰菜"]]
+    },
+    "烤制的花椰菜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "花椰菜", null], [null, null, null]],
+        "ingredients": [["花椰菜"]]
+    },
+    "切碎的芹菜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "芹菜", null], [null, null, null]],
+        "ingredients": [["芹菜"]]
+    },
+    "捣碎的芹菜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "芹菜", null], [null, null, null]],
+        "ingredients": [["芹菜"]]
+    },
+    "切片的芹菜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "芹菜", null], [null, null, null]],
+        "ingredients": [["芹菜"]]
+    },
+    "剁碎的芹菜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "芹菜", null], [null, null, null]],
+        "ingredients": [["芹菜"]]
+    },
+    "搅拌的芹菜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "芹菜", null], [null, null, null]],
+        "ingredients": [["芹菜"]]
+    },
+    "煮熟的芹菜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "芹菜", null], [null, null, null]],
+        "ingredients": [["芹菜"]]
+    },
+    "油炸的芹菜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "芹菜", null], [null, null, null]],
+        "ingredients": [["芹菜"]]
+    },
+    "烤制的芹菜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "芹菜", null], [null, null, null]],
+        "ingredients": [["芹菜"]]
+    },
+    "切碎的羽衣甘蓝": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "羽衣甘蓝", null], [null, null, null]],
+        "ingredients": [["羽衣甘蓝"]]
+    },
+    "捣碎的羽衣甘蓝": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "羽衣甘蓝", null], [null, null, null]],
+        "ingredients": [["羽衣甘蓝"]]
+    },
+    "切片的羽衣甘蓝": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "羽衣甘蓝", null], [null, null, null]],
+        "ingredients": [["羽衣甘蓝"]]
+    },
+    "剁碎的羽衣甘蓝": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "羽衣甘蓝", null], [null, null, null]],
+        "ingredients": [["羽衣甘蓝"]]
+    },
+    "搅拌的羽衣甘蓝": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "羽衣甘蓝", null], [null, null, null]],
+        "ingredients": [["羽衣甘蓝"]]
+    },
+    "煮熟的羽衣甘蓝": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "羽衣甘蓝", null], [null, null, null]],
+        "ingredients": [["羽衣甘蓝"]]
+    },
+    "油炸的羽衣甘蓝": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "羽衣甘蓝", null], [null, null, null]],
+        "ingredients": [["羽衣甘蓝"]]
+    },
+    "烤制的羽衣甘蓝": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "羽衣甘蓝", null], [null, null, null]],
+        "ingredients": [["羽衣甘蓝"]]
+    },
+    "切碎的菠菜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "菠菜", null], [null, null, null]],
+        "ingredients": [["菠菜"]]
+    },
+    "捣碎的菠菜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "菠菜", null], [null, null, null]],
+        "ingredients": [["菠菜"]]
+    },
+    "切片的菠菜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "菠菜", null], [null, null, null]],
+        "ingredients": [["菠菜"]]
+    },
+    "剁碎的菠菜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "菠菜", null], [null, null, null]],
+        "ingredients": [["菠菜"]]
+    },
+    "搅拌的菠菜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "菠菜", null], [null, null, null]],
+        "ingredients": [["菠菜"]]
+    },
+    "煮熟的菠菜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "菠菜", null], [null, null, null]],
+        "ingredients": [["菠菜"]]
+    },
+    "油炸的菠菜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "菠菜", null], [null, null, null]],
+        "ingredients": [["菠菜"]]
+    },
+    "烤制的菠菜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "菠菜", null], [null, null, null]],
+        "ingredients": [["菠菜"]]
+    },
+    "切碎的黑豆": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "黑豆", null], [null, null, null]],
+        "ingredients": [["黑豆"]]
+    },
+    "捣碎的黑豆": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "黑豆", null], [null, null, null]],
+        "ingredients": [["黑豆"]]
+    },
+    "切片的黑豆": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "黑豆", null], [null, null, null]],
+        "ingredients": [["黑豆"]]
+    },
+    "剁碎的黑豆": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "黑豆", null], [null, null, null]],
+        "ingredients": [["黑豆"]]
+    },
+    "搅拌的黑豆": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "黑豆", null], [null, null, null]],
+        "ingredients": [["黑豆"]]
+    },
+    "煮熟的黑豆": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "黑豆", null], [null, null, null]],
+        "ingredients": [["黑豆"]]
+    },
+    "油炸的黑豆": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "黑豆", null], [null, null, null]],
+        "ingredients": [["黑豆"]]
+    },
+    "烤制的黑豆": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "黑豆", null], [null, null, null]],
+        "ingredients": [["黑豆"]]
+    },
+    "切碎的四季豆": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "四季豆", null], [null, null, null]],
+        "ingredients": [["四季豆"]]
+    },
+    "捣碎的四季豆": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "四季豆", null], [null, null, null]],
+        "ingredients": [["四季豆"]]
+    },
+    "切片的四季豆": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "四季豆", null], [null, null, null]],
+        "ingredients": [["四季豆"]]
+    },
+    "剁碎的四季豆": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "四季豆", null], [null, null, null]],
+        "ingredients": [["四季豆"]]
+    },
+    "搅拌的四季豆": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "四季豆", null], [null, null, null]],
+        "ingredients": [["四季豆"]]
+    },
+    "煮熟的四季豆": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "四季豆", null], [null, null, null]],
+        "ingredients": [["四季豆"]]
+    },
+    "油炸的四季豆": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "四季豆", null], [null, null, null]],
+        "ingredients": [["四季豆"]]
+    },
+    "烤制的四季豆": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "四季豆", null], [null, null, null]],
+        "ingredients": [["四季豆"]]
+    },
+    "切碎的鹰嘴豆": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "鹰嘴豆", null], [null, null, null]],
+        "ingredients": [["鹰嘴豆"]]
+    },
+    "捣碎的鹰嘴豆": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "鹰嘴豆", null], [null, null, null]],
+        "ingredients": [["鹰嘴豆"]]
+    },
+    "切片的鹰嘴豆": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "鹰嘴豆", null], [null, null, null]],
+        "ingredients": [["鹰嘴豆"]]
+    },
+    "剁碎的鹰嘴豆": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "鹰嘴豆", null], [null, null, null]],
+        "ingredients": [["鹰嘴豆"]]
+    },
+    "搅拌的鹰嘴豆": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "鹰嘴豆", null], [null, null, null]],
+        "ingredients": [["鹰嘴豆"]]
+    },
+    "煮熟的鹰嘴豆": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "鹰嘴豆", null], [null, null, null]],
+        "ingredients": [["鹰嘴豆"]]
+    },
+    "油炸的鹰嘴豆": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "鹰嘴豆", null], [null, null, null]],
+        "ingredients": [["鹰嘴豆"]]
+    },
+    "烤制的鹰嘴豆": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "鹰嘴豆", null], [null, null, null]],
+        "ingredients": [["鹰嘴豆"]]
+    },
+    "切碎的大豆": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "大豆", null], [null, null, null]],
+        "ingredients": [["大豆"]]
+    },
+    "捣碎的大豆": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "大豆", null], [null, null, null]],
+        "ingredients": [["大豆"]]
+    },
+    "切片的大豆": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "大豆", null], [null, null, null]],
+        "ingredients": [["大豆"]]
+    },
+    "剁碎的大豆": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "大豆", null], [null, null, null]],
+        "ingredients": [["大豆"]]
+    },
+    "搅拌的大豆": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "大豆", null], [null, null, null]],
+        "ingredients": [["大豆"]]
+    },
+    "煮熟的大豆": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "大豆", null], [null, null, null]],
+        "ingredients": [["大豆"]]
+    },
+    "油炸的大豆": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "大豆", null], [null, null, null]],
+        "ingredients": [["大豆"]]
+    },
+    "烤制的大豆": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "大豆", null], [null, null, null]],
+        "ingredients": [["大豆"]]
+    },
+    "切碎的斑豆": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "斑豆", null], [null, null, null]],
+        "ingredients": [["斑豆"]]
+    },
+    "捣碎的斑豆": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "斑豆", null], [null, null, null]],
+        "ingredients": [["斑豆"]]
+    },
+    "切片的斑豆": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "斑豆", null], [null, null, null]],
+        "ingredients": [["斑豆"]]
+    },
+    "剁碎的斑豆": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "斑豆", null], [null, null, null]],
+        "ingredients": [["斑豆"]]
+    },
+    "搅拌的斑豆": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "斑豆", null], [null, null, null]],
+        "ingredients": [["斑豆"]]
+    },
+    "煮熟的斑豆": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "斑豆", null], [null, null, null]],
+        "ingredients": [["斑豆"]]
+    },
+    "油炸的斑豆": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "斑豆", null], [null, null, null]],
+        "ingredients": [["斑豆"]]
+    },
+    "烤制的斑豆": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "斑豆", null], [null, null, null]],
+        "ingredients": [["斑豆"]]
+    },
+    "切碎的红花菜豆": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "红花菜豆", null], [null, null, null]],
+        "ingredients": [["红花菜豆"]]
+    },
+    "捣碎的红花菜豆": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "红花菜豆", null], [null, null, null]],
+        "ingredients": [["红花菜豆"]]
+    },
+    "切片的红花菜豆": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "红花菜豆", null], [null, null, null]],
+        "ingredients": [["红花菜豆"]]
+    },
+    "剁碎的红花菜豆": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "红花菜豆", null], [null, null, null]],
+        "ingredients": [["红花菜豆"]]
+    },
+    "搅拌的红花菜豆": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "红花菜豆", null], [null, null, null]],
+        "ingredients": [["红花菜豆"]]
+    },
+    "煮熟的红花菜豆": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "红花菜豆", null], [null, null, null]],
+        "ingredients": [["红花菜豆"]]
+    },
+    "油炸的红花菜豆": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "红花菜豆", null], [null, null, null]],
+        "ingredients": [["红花菜豆"]]
+    },
+    "烤制的红花菜豆": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "红花菜豆", null], [null, null, null]],
+        "ingredients": [["红花菜豆"]]
+    },
+    "切碎的荨麻": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "荨麻", null], [null, null, null]],
+        "ingredients": [["荨麻"]]
+    },
+    "捣碎的荨麻": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "荨麻", null], [null, null, null]],
+        "ingredients": [["荨麻"]]
+    },
+    "切片的荨麻": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "荨麻", null], [null, null, null]],
+        "ingredients": [["荨麻"]]
+    },
+    "剁碎的荨麻": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "荨麻", null], [null, null, null]],
+        "ingredients": [["荨麻"]]
+    },
+    "搅拌的荨麻": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "荨麻", null], [null, null, null]],
+        "ingredients": [["荨麻"]]
+    },
+    "煮熟的荨麻": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "荨麻", null], [null, null, null]],
+        "ingredients": [["荨麻"]]
+    },
+    "油炸的荨麻": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "荨麻", null], [null, null, null]],
+        "ingredients": [["荨麻"]]
+    },
+    "烤制的荨麻": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "荨麻", null], [null, null, null]],
+        "ingredients": [["荨麻"]]
+    },
+    "切碎的秋葵": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "秋葵", null], [null, null, null]],
+        "ingredients": [["秋葵"]]
+    },
+    "捣碎的秋葵": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "秋葵", null], [null, null, null]],
+        "ingredients": [["秋葵"]]
+    },
+    "切片的秋葵": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "秋葵", null], [null, null, null]],
+        "ingredients": [["秋葵"]]
+    },
+    "剁碎的秋葵": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "秋葵", null], [null, null, null]],
+        "ingredients": [["秋葵"]]
+    },
+    "搅拌的秋葵": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "秋葵", null], [null, null, null]],
+        "ingredients": [["秋葵"]]
+    },
+    "煮熟的秋葵": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "秋葵", null], [null, null, null]],
+        "ingredients": [["秋葵"]]
+    },
+    "油炸的秋葵": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "秋葵", null], [null, null, null]],
+        "ingredients": [["秋葵"]]
+    },
+    "烤制的秋葵": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "秋葵", null], [null, null, null]],
+        "ingredients": [["秋葵"]]
+    },
+    "切碎的韭葱": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "韭葱", null], [null, null, null]],
+        "ingredients": [["韭葱"]]
+    },
+    "捣碎的韭葱": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "韭葱", null], [null, null, null]],
+        "ingredients": [["韭葱"]]
+    },
+    "切片的韭葱": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "韭葱", null], [null, null, null]],
+        "ingredients": [["韭葱"]]
+    },
+    "剁碎的韭葱": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "韭葱", null], [null, null, null]],
+        "ingredients": [["韭葱"]]
+    },
+    "搅拌的韭葱": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "韭葱", null], [null, null, null]],
+        "ingredients": [["韭葱"]]
+    },
+    "煮熟的韭葱": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "韭葱", null], [null, null, null]],
+        "ingredients": [["韭葱"]]
+    },
+    "油炸的韭葱": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "韭葱", null], [null, null, null]],
+        "ingredients": [["韭葱"]]
+    },
+    "烤制的韭葱": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "韭葱", null], [null, null, null]],
+        "ingredients": [["韭葱"]]
+    },
+    "切碎的青葱": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "青葱", null], [null, null, null]],
+        "ingredients": [["青葱"]]
+    },
+    "捣碎的青葱": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "青葱", null], [null, null, null]],
+        "ingredients": [["青葱"]]
+    },
+    "切片的青葱": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "青葱", null], [null, null, null]],
+        "ingredients": [["青葱"]]
+    },
+    "剁碎的青葱": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "青葱", null], [null, null, null]],
+        "ingredients": [["青葱"]]
+    },
+    "搅拌的青葱": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "青葱", null], [null, null, null]],
+        "ingredients": [["青葱"]]
+    },
+    "煮熟的青葱": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "青葱", null], [null, null, null]],
+        "ingredients": [["青葱"]]
+    },
+    "油炸的青葱": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "青葱", null], [null, null, null]],
+        "ingredients": [["青葱"]]
+    },
+    "烤制的青葱": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "青葱", null], [null, null, null]],
+        "ingredients": [["青葱"]]
+    },
+    "切碎的墨西哥胡椒": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "墨西哥胡椒", null], [null, null, null]],
+        "ingredients": [["墨西哥胡椒"]]
+    },
+    "捣碎的墨西哥胡椒": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "墨西哥胡椒", null], [null, null, null]],
+        "ingredients": [["墨西哥胡椒"]]
+    },
+    "切片的墨西哥胡椒": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "墨西哥胡椒", null], [null, null, null]],
+        "ingredients": [["墨西哥胡椒"]]
+    },
+    "剁碎的墨西哥胡椒": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "墨西哥胡椒", null], [null, null, null]],
+        "ingredients": [["墨西哥胡椒"]]
+    },
+    "搅拌的墨西哥胡椒": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "墨西哥胡椒", null], [null, null, null]],
+        "ingredients": [["墨西哥胡椒"]]
+    },
+    "煮熟的墨西哥胡椒": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "墨西哥胡椒", null], [null, null, null]],
+        "ingredients": [["墨西哥胡椒"]]
+    },
+    "油炸的墨西哥胡椒": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "墨西哥胡椒", null], [null, null, null]],
+        "ingredients": [["墨西哥胡椒"]]
+    },
+    "烤制的墨西哥胡椒": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "墨西哥胡椒", null], [null, null, null]],
+        "ingredients": [["墨西哥胡椒"]]
+    },
+    "切碎的大黄": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "大黄", null], [null, null, null]],
+        "ingredients": [["大黄"]]
+    },
+    "捣碎的大黄": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "大黄", null], [null, null, null]],
+        "ingredients": [["大黄"]]
+    },
+    "切片的大黄": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "大黄", null], [null, null, null]],
+        "ingredients": [["大黄"]]
+    },
+    "剁碎的大黄": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "大黄", null], [null, null, null]],
+        "ingredients": [["大黄"]]
+    },
+    "搅拌的大黄": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "大黄", null], [null, null, null]],
+        "ingredients": [["大黄"]]
+    },
+    "煮熟的大黄": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "大黄", null], [null, null, null]],
+        "ingredients": [["大黄"]]
+    },
+    "油炸的大黄": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "大黄", null], [null, null, null]],
+        "ingredients": [["大黄"]]
+    },
+    "烤制的大黄": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "大黄", null], [null, null, null]],
+        "ingredients": [["大黄"]]
+    },
+    "切碎的块根芹": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "块根芹", null], [null, null, null]],
+        "ingredients": [["块根芹"]]
+    },
+    "捣碎的块根芹": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "块根芹", null], [null, null, null]],
+        "ingredients": [["块根芹"]]
+    },
+    "切片的块根芹": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "块根芹", null], [null, null, null]],
+        "ingredients": [["块根芹"]]
+    },
+    "剁碎的块根芹": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "块根芹", null], [null, null, null]],
+        "ingredients": [["块根芹"]]
+    },
+    "搅拌的块根芹": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "块根芹", null], [null, null, null]],
+        "ingredients": [["块根芹"]]
+    },
+    "煮熟的块根芹": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "块根芹", null], [null, null, null]],
+        "ingredients": [["块根芹"]]
+    },
+    "油炸的块根芹": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "块根芹", null], [null, null, null]],
+        "ingredients": [["块根芹"]]
+    },
+    "烤制的块根芹": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "块根芹", null], [null, null, null]],
+        "ingredients": [["块根芹"]]
+    },
+    "切碎的欧洲防风草": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "欧洲防风草", null], [null, null, null]],
+        "ingredients": [["欧洲防风草"]]
+    },
+    "捣碎的欧洲防风草": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "欧洲防风草", null], [null, null, null]],
+        "ingredients": [["欧洲防风草"]]
+    },
+    "切片的欧洲防风草": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "欧洲防风草", null], [null, null, null]],
+        "ingredients": [["欧洲防风草"]]
+    },
+    "剁碎的欧洲防风草": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "欧洲防风草", null], [null, null, null]],
+        "ingredients": [["欧洲防风草"]]
+    },
+    "搅拌的欧洲防风草": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "欧洲防风草", null], [null, null, null]],
+        "ingredients": [["欧洲防风草"]]
+    },
+    "煮熟的欧洲防风草": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "欧洲防风草", null], [null, null, null]],
+        "ingredients": [["欧洲防风草"]]
+    },
+    "油炸的欧洲防风草": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "欧洲防风草", null], [null, null, null]],
+        "ingredients": [["欧洲防风草"]]
+    },
+    "烤制的欧洲防风草": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "欧洲防风草", null], [null, null, null]],
+        "ingredients": [["欧洲防风草"]]
+    },
+    "切碎的芜菁甘蓝": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "芜菁甘蓝", null], [null, null, null]],
+        "ingredients": [["芜菁甘蓝"]]
+    },
+    "捣碎的芜菁甘蓝": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "芜菁甘蓝", null], [null, null, null]],
+        "ingredients": [["芜菁甘蓝"]]
+    },
+    "切片的芜菁甘蓝": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "芜菁甘蓝", null], [null, null, null]],
+        "ingredients": [["芜菁甘蓝"]]
+    },
+    "剁碎的芜菁甘蓝": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "芜菁甘蓝", null], [null, null, null]],
+        "ingredients": [["芜菁甘蓝"]]
+    },
+    "搅拌的芜菁甘蓝": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "芜菁甘蓝", null], [null, null, null]],
+        "ingredients": [["芜菁甘蓝"]]
+    },
+    "煮熟的芜菁甘蓝": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "芜菁甘蓝", null], [null, null, null]],
+        "ingredients": [["芜菁甘蓝"]]
+    },
+    "油炸的芜菁甘蓝": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "芜菁甘蓝", null], [null, null, null]],
+        "ingredients": [["芜菁甘蓝"]]
+    },
+    "烤制的芜菁甘蓝": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "芜菁甘蓝", null], [null, null, null]],
+        "ingredients": [["芜菁甘蓝"]]
+    },
+    "切碎的小红萝卜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "小红萝卜", null], [null, null, null]],
+        "ingredients": [["小红萝卜"]]
+    },
+    "捣碎的小红萝卜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "小红萝卜", null], [null, null, null]],
+        "ingredients": [["小红萝卜"]]
+    },
+    "切片的小红萝卜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "小红萝卜", null], [null, null, null]],
+        "ingredients": [["小红萝卜"]]
+    },
+    "剁碎的小红萝卜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "小红萝卜", null], [null, null, null]],
+        "ingredients": [["小红萝卜"]]
+    },
+    "搅拌的小红萝卜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "小红萝卜", null], [null, null, null]],
+        "ingredients": [["小红萝卜"]]
+    },
+    "煮熟的小红萝卜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "小红萝卜", null], [null, null, null]],
+        "ingredients": [["小红萝卜"]]
+    },
+    "油炸的小红萝卜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "小红萝卜", null], [null, null, null]],
+        "ingredients": [["小红萝卜"]]
+    },
+    "烤制的小红萝卜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "小红萝卜", null], [null, null, null]],
+        "ingredients": [["小红萝卜"]]
+    },
+    "切碎的甘薯": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "甘薯", null], [null, null, null]],
+        "ingredients": [["甘薯"]]
+    },
+    "捣碎的甘薯": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "甘薯", null], [null, null, null]],
+        "ingredients": [["甘薯"]]
+    },
+    "切片的甘薯": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "甘薯", null], [null, null, null]],
+        "ingredients": [["甘薯"]]
+    },
+    "剁碎的甘薯": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "甘薯", null], [null, null, null]],
+        "ingredients": [["甘薯"]]
+    },
+    "搅拌的甘薯": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "甘薯", null], [null, null, null]],
+        "ingredients": [["甘薯"]]
+    },
+    "煮熟的甘薯": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "甘薯", null], [null, null, null]],
+        "ingredients": [["甘薯"]]
+    },
+    "油炸的甘薯": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "甘薯", null], [null, null, null]],
+        "ingredients": [["甘薯"]]
+    },
+    "烤制的甘薯": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "甘薯", null], [null, null, null]],
+        "ingredients": [["甘薯"]]
+    },
+    "切碎的大头菜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "大头菜", null], [null, null, null]],
+        "ingredients": [["大头菜"]]
+    },
+    "捣碎的大头菜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "大头菜", null], [null, null, null]],
+        "ingredients": [["大头菜"]]
+    },
+    "切片的大头菜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "大头菜", null], [null, null, null]],
+        "ingredients": [["大头菜"]]
+    },
+    "剁碎的大头菜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "大头菜", null], [null, null, null]],
+        "ingredients": [["大头菜"]]
+    },
+    "搅拌的大头菜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "大头菜", null], [null, null, null]],
+        "ingredients": [["大头菜"]]
+    },
+    "煮熟的大头菜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "大头菜", null], [null, null, null]],
+        "ingredients": [["大头菜"]]
+    },
+    "油炸的大头菜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "大头菜", null], [null, null, null]],
+        "ingredients": [["大头菜"]]
+    },
+    "烤制的大头菜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "大头菜", null], [null, null, null]],
+        "ingredients": [["大头菜"]]
+    },
+    "切碎的甜玉米": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "甜玉米", null], [null, null, null]],
+        "ingredients": [["甜玉米"]]
+    },
+    "捣碎的甜玉米": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "甜玉米", null], [null, null, null]],
+        "ingredients": [["甜玉米"]]
+    },
+    "切片的甜玉米": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "甜玉米", null], [null, null, null]],
+        "ingredients": [["甜玉米"]]
+    },
+    "剁碎的甜玉米": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "甜玉米", null], [null, null, null]],
+        "ingredients": [["甜玉米"]]
+    },
+    "搅拌的甜玉米": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "甜玉米", null], [null, null, null]],
+        "ingredients": [["甜玉米"]]
+    },
+    "煮熟的甜玉米": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "甜玉米", null], [null, null, null]],
+        "ingredients": [["甜玉米"]]
+    },
+    "油炸的甜玉米": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "甜玉米", null], [null, null, null]],
+        "ingredients": [["甜玉米"]]
+    },
+    "烤制的甜玉米": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "甜玉米", null], [null, null, null]],
+        "ingredients": [["甜玉米"]]
+    },
+    "切碎的西葫芦": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "西葫芦", null], [null, null, null]],
+        "ingredients": [["西葫芦"]]
+    },
+    "捣碎的西葫芦": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "西葫芦", null], [null, null, null]],
+        "ingredients": [["西葫芦"]]
+    },
+    "切片的西葫芦": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "西葫芦", null], [null, null, null]],
+        "ingredients": [["西葫芦"]]
+    },
+    "剁碎的西葫芦": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "西葫芦", null], [null, null, null]],
+        "ingredients": [["西葫芦"]]
+    },
+    "搅拌的西葫芦": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "西葫芦", null], [null, null, null]],
+        "ingredients": [["西葫芦"]]
+    },
+    "煮熟的西葫芦": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "西葫芦", null], [null, null, null]],
+        "ingredients": [["西葫芦"]]
+    },
+    "油炸的西葫芦": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "西葫芦", null], [null, null, null]],
+        "ingredients": [["西葫芦"]]
+    },
+    "烤制的西葫芦": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "西葫芦", null], [null, null, null]],
+        "ingredients": [["西葫芦"]]
+    },
+    "切碎的黄瓜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "黄瓜", null], [null, null, null]],
+        "ingredients": [["黄瓜"]]
+    },
+    "捣碎的黄瓜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "黄瓜", null], [null, null, null]],
+        "ingredients": [["黄瓜"]]
+    },
+    "切片的黄瓜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "黄瓜", null], [null, null, null]],
+        "ingredients": [["黄瓜"]]
+    },
+    "剁碎的黄瓜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "黄瓜", null], [null, null, null]],
+        "ingredients": [["黄瓜"]]
+    },
+    "搅拌的黄瓜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "黄瓜", null], [null, null, null]],
+        "ingredients": [["黄瓜"]]
+    },
+    "煮熟的黄瓜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "黄瓜", null], [null, null, null]],
+        "ingredients": [["黄瓜"]]
+    },
+    "油炸的黄瓜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "黄瓜", null], [null, null, null]],
+        "ingredients": [["黄瓜"]]
+    },
+    "烤制的黄瓜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "黄瓜", null], [null, null, null]],
+        "ingredients": [["黄瓜"]]
+    },
+    "切碎的嫩葫芦": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "嫩葫芦", null], [null, null, null]],
+        "ingredients": [["嫩葫芦"]]
+    },
+    "捣碎的嫩葫芦": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "嫩葫芦", null], [null, null, null]],
+        "ingredients": [["嫩葫芦"]]
+    },
+    "切片的嫩葫芦": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "嫩葫芦", null], [null, null, null]],
+        "ingredients": [["嫩葫芦"]]
+    },
+    "剁碎的嫩葫芦": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "嫩葫芦", null], [null, null, null]],
+        "ingredients": [["嫩葫芦"]]
+    },
+    "搅拌的嫩葫芦": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "嫩葫芦", null], [null, null, null]],
+        "ingredients": [["嫩葫芦"]]
+    },
+    "煮熟的嫩葫芦": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "嫩葫芦", null], [null, null, null]],
+        "ingredients": [["嫩葫芦"]]
+    },
+    "油炸的嫩葫芦": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "嫩葫芦", null], [null, null, null]],
+        "ingredients": [["嫩葫芦"]]
+    },
+    "烤制的嫩葫芦": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "嫩葫芦", null], [null, null, null]],
+        "ingredients": [["嫩葫芦"]]
+    },
+    "切碎的鳄梨": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "鳄梨", null], [null, null, null]],
+        "ingredients": [["鳄梨"]]
+    },
+    "捣碎的鳄梨": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "鳄梨", null], [null, null, null]],
+        "ingredients": [["鳄梨"]]
+    },
+    "切片的鳄梨": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "鳄梨", null], [null, null, null]],
+        "ingredients": [["鳄梨"]]
+    },
+    "剁碎的鳄梨": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "鳄梨", null], [null, null, null]],
+        "ingredients": [["鳄梨"]]
+    },
+    "搅拌的鳄梨": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "鳄梨", null], [null, null, null]],
+        "ingredients": [["鳄梨"]]
+    },
+    "煮熟的鳄梨": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "鳄梨", null], [null, null, null]],
+        "ingredients": [["鳄梨"]]
+    },
+    "油炸的鳄梨": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "鳄梨", null], [null, null, null]],
+        "ingredients": [["鳄梨"]]
+    },
+    "烤制的鳄梨": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "鳄梨", null], [null, null, null]],
+        "ingredients": [["鳄梨"]]
+    },
+    "切碎的嫩葱": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "嫩葱", null], [null, null, null]],
+        "ingredients": [["嫩葱"]]
+    },
+    "捣碎的嫩葱": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "嫩葱", null], [null, null, null]],
+        "ingredients": [["嫩葱"]]
+    },
+    "切片的嫩葱": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "嫩葱", null], [null, null, null]],
+        "ingredients": [["嫩葱"]]
+    },
+    "剁碎的嫩葱": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "嫩葱", null], [null, null, null]],
+        "ingredients": [["嫩葱"]]
+    },
+    "搅拌的嫩葱": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "嫩葱", null], [null, null, null]],
+        "ingredients": [["嫩葱"]]
+    },
+    "煮熟的嫩葱": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "嫩葱", null], [null, null, null]],
+        "ingredients": [["嫩葱"]]
+    },
+    "油炸的嫩葱": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "嫩葱", null], [null, null, null]],
+        "ingredients": [["嫩葱"]]
+    },
+    "烤制的嫩葱": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "嫩葱", null], [null, null, null]],
+        "ingredients": [["嫩葱"]]
+    },
+    "切碎的黑胡椒": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "黑胡椒", null], [null, null, null]],
+        "ingredients": [["黑胡椒"]]
+    },
+    "捣碎的黑胡椒": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "黑胡椒", null], [null, null, null]],
+        "ingredients": [["黑胡椒"]]
+    },
+    "切片的黑胡椒": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "黑胡椒", null], [null, null, null]],
+        "ingredients": [["黑胡椒"]]
+    },
+    "剁碎的黑胡椒": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "黑胡椒", null], [null, null, null]],
+        "ingredients": [["黑胡椒"]]
+    },
+    "搅拌的黑胡椒": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "黑胡椒", null], [null, null, null]],
+        "ingredients": [["黑胡椒"]]
+    },
+    "煮熟的黑胡椒": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "黑胡椒", null], [null, null, null]],
+        "ingredients": [["黑胡椒"]]
+    },
+    "油炸的黑胡椒": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "黑胡椒", null], [null, null, null]],
+        "ingredients": [["黑胡椒"]]
+    },
+    "烤制的黑胡椒": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "黑胡椒", null], [null, null, null]],
+        "ingredients": [["黑胡椒"]]
+    },
+    "切碎的生牛肉": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "生牛肉", null], [null, null, null]],
+        "ingredients": [["生牛肉"]]
+    },
+    "捣碎的生牛肉": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "生牛肉", null], [null, null, null]],
+        "ingredients": [["生牛肉"]]
+    },
+    "切片的生牛肉": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "生牛肉", null], [null, null, null]],
+        "ingredients": [["生牛肉"]]
+    },
+    "剁碎的生牛肉": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "生牛肉", null], [null, null, null]],
+        "ingredients": [["生牛肉"]]
+    },
+    "搅拌的生牛肉": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "生牛肉", null], [null, null, null]],
+        "ingredients": [["生牛肉"]]
+    },
+    "煮熟的生牛肉": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "生牛肉", null], [null, null, null]],
+        "ingredients": [["生牛肉"]]
+    },
+    "油炸的生牛肉": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "生牛肉", null], [null, null, null]],
+        "ingredients": [["生牛肉"]]
+    },
+    "烤制的生牛肉": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "生牛肉", null], [null, null, null]],
+        "ingredients": [["生牛肉"]]
+    },
+    "切碎的生鸡肉": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "生鸡肉", null], [null, null, null]],
+        "ingredients": [["生鸡肉"]]
+    },
+    "捣碎的生鸡肉": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "生鸡肉", null], [null, null, null]],
+        "ingredients": [["生鸡肉"]]
+    },
+    "切片的生鸡肉": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "生鸡肉", null], [null, null, null]],
+        "ingredients": [["生鸡肉"]]
+    },
+    "剁碎的生鸡肉": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "生鸡肉", null], [null, null, null]],
+        "ingredients": [["生鸡肉"]]
+    },
+    "搅拌的生鸡肉": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "生鸡肉", null], [null, null, null]],
+        "ingredients": [["生鸡肉"]]
+    },
+    "煮熟的生鸡肉": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "生鸡肉", null], [null, null, null]],
+        "ingredients": [["生鸡肉"]]
+    },
+    "油炸的生鸡肉": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "生鸡肉", null], [null, null, null]],
+        "ingredients": [["生鸡肉"]]
+    },
+    "烤制的生鸡肉": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "生鸡肉", null], [null, null, null]],
+        "ingredients": [["生鸡肉"]]
+    },
+    "切碎的生猪排": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "生猪排", null], [null, null, null]],
+        "ingredients": [["生猪排"]]
+    },
+    "捣碎的生猪排": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "生猪排", null], [null, null, null]],
+        "ingredients": [["生猪排"]]
+    },
+    "切片的生猪排": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "生猪排", null], [null, null, null]],
+        "ingredients": [["生猪排"]]
+    },
+    "剁碎的生猪排": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "生猪排", null], [null, null, null]],
+        "ingredients": [["生猪排"]]
+    },
+    "搅拌的生猪排": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "生猪排", null], [null, null, null]],
+        "ingredients": [["生猪排"]]
+    },
+    "煮熟的生猪排": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "生猪排", null], [null, null, null]],
+        "ingredients": [["生猪排"]]
+    },
+    "油炸的生猪排": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "生猪排", null], [null, null, null]],
+        "ingredients": [["生猪排"]]
+    },
+    "烤制的生猪排": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "生猪排", null], [null, null, null]],
+        "ingredients": [["生猪排"]]
+    },
+    "切碎的生羊肉": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "生羊肉", null], [null, null, null]],
+        "ingredients": [["生羊肉"]]
+    },
+    "捣碎的生羊肉": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "生羊肉", null], [null, null, null]],
+        "ingredients": [["生羊肉"]]
+    },
+    "切片的生羊肉": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "生羊肉", null], [null, null, null]],
+        "ingredients": [["生羊肉"]]
+    },
+    "剁碎的生羊肉": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "生羊肉", null], [null, null, null]],
+        "ingredients": [["生羊肉"]]
+    },
+    "搅拌的生羊肉": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "生羊肉", null], [null, null, null]],
+        "ingredients": [["生羊肉"]]
+    },
+    "煮熟的生羊肉": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "生羊肉", null], [null, null, null]],
+        "ingredients": [["生羊肉"]]
+    },
+    "油炸的生羊肉": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "生羊肉", null], [null, null, null]],
+        "ingredients": [["生羊肉"]]
+    },
+    "烤制的生羊肉": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "生羊肉", null], [null, null, null]],
+        "ingredients": [["生羊肉"]]
+    },
+    "切碎的生兔肉": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "生兔肉", null], [null, null, null]],
+        "ingredients": [["生兔肉"]]
+    },
+    "捣碎的生兔肉": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "生兔肉", null], [null, null, null]],
+        "ingredients": [["生兔肉"]]
+    },
+    "切片的生兔肉": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "生兔肉", null], [null, null, null]],
+        "ingredients": [["生兔肉"]]
+    },
+    "剁碎的生兔肉": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "生兔肉", null], [null, null, null]],
+        "ingredients": [["生兔肉"]]
+    },
+    "搅拌的生兔肉": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "生兔肉", null], [null, null, null]],
+        "ingredients": [["生兔肉"]]
+    },
+    "煮熟的生兔肉": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "生兔肉", null], [null, null, null]],
+        "ingredients": [["生兔肉"]]
+    },
+    "油炸的生兔肉": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "生兔肉", null], [null, null, null]],
+        "ingredients": [["生兔肉"]]
+    },
+    "烤制的生兔肉": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "生兔肉", null], [null, null, null]],
+        "ingredients": [["生兔肉"]]
+    },
+    "切碎的生鳕鱼": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "生鳕鱼", null], [null, null, null]],
+        "ingredients": [["生鳕鱼"]]
+    },
+    "捣碎的生鳕鱼": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "生鳕鱼", null], [null, null, null]],
+        "ingredients": [["生鳕鱼"]]
+    },
+    "切片的生鳕鱼": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "生鳕鱼", null], [null, null, null]],
+        "ingredients": [["生鳕鱼"]]
+    },
+    "剁碎的生鳕鱼": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "生鳕鱼", null], [null, null, null]],
+        "ingredients": [["生鳕鱼"]]
+    },
+    "搅拌的生鳕鱼": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "生鳕鱼", null], [null, null, null]],
+        "ingredients": [["生鳕鱼"]]
+    },
+    "煮熟的生鳕鱼": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "生鳕鱼", null], [null, null, null]],
+        "ingredients": [["生鳕鱼"]]
+    },
+    "油炸的生鳕鱼": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "生鳕鱼", null], [null, null, null]],
+        "ingredients": [["生鳕鱼"]]
+    },
+    "烤制的生鳕鱼": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "生鳕鱼", null], [null, null, null]],
+        "ingredients": [["生鳕鱼"]]
+    },
+    "切碎的生鲑鱼": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "生鲑鱼", null], [null, null, null]],
+        "ingredients": [["生鲑鱼"]]
+    },
+    "捣碎的生鲑鱼": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "生鲑鱼", null], [null, null, null]],
+        "ingredients": [["生鲑鱼"]]
+    },
+    "切片的生鲑鱼": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "生鲑鱼", null], [null, null, null]],
+        "ingredients": [["生鲑鱼"]]
+    },
+    "剁碎的生鲑鱼": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "生鲑鱼", null], [null, null, null]],
+        "ingredients": [["生鲑鱼"]]
+    },
+    "搅拌的生鲑鱼": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "生鲑鱼", null], [null, null, null]],
+        "ingredients": [["生鲑鱼"]]
+    },
+    "煮熟的生鲑鱼": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "生鲑鱼", null], [null, null, null]],
+        "ingredients": [["生鲑鱼"]]
+    },
+    "油炸的生鲑鱼": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "生鲑鱼", null], [null, null, null]],
+        "ingredients": [["生鲑鱼"]]
+    },
+    "烤制的生鲑鱼": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "生鲑鱼", null], [null, null, null]],
+        "ingredients": [["生鲑鱼"]]
+    },
+    "切碎的苹果": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "苹果", null], [null, null, null]],
+        "ingredients": [["苹果"]]
+    },
+    "捣碎的苹果": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "苹果", null], [null, null, null]],
+        "ingredients": [["苹果"]]
+    },
+    "切片的苹果": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "苹果", null], [null, null, null]],
+        "ingredients": [["苹果"]]
+    },
+    "剁碎的苹果": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "苹果", null], [null, null, null]],
+        "ingredients": [["苹果"]]
+    },
+    "搅拌的苹果": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "苹果", null], [null, null, null]],
+        "ingredients": [["苹果"]]
+    },
+    "煮熟的苹果": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "苹果", null], [null, null, null]],
+        "ingredients": [["苹果"]]
+    },
+    "油炸的苹果": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "苹果", null], [null, null, null]],
+        "ingredients": [["苹果"]]
+    },
+    "烤制的苹果": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "苹果", null], [null, null, null]],
+        "ingredients": [["苹果"]]
+    },
+    "切碎的甜浆果": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "甜浆果", null], [null, null, null]],
+        "ingredients": [["甜浆果"]]
+    },
+    "捣碎的甜浆果": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "甜浆果", null], [null, null, null]],
+        "ingredients": [["甜浆果"]]
+    },
+    "切片的甜浆果": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "甜浆果", null], [null, null, null]],
+        "ingredients": [["甜浆果"]]
+    },
+    "剁碎的甜浆果": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "甜浆果", null], [null, null, null]],
+        "ingredients": [["甜浆果"]]
+    },
+    "搅拌的甜浆果": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "甜浆果", null], [null, null, null]],
+        "ingredients": [["甜浆果"]]
+    },
+    "煮熟的甜浆果": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "甜浆果", null], [null, null, null]],
+        "ingredients": [["甜浆果"]]
+    },
+    "油炸的甜浆果": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "甜浆果", null], [null, null, null]],
+        "ingredients": [["甜浆果"]]
+    },
+    "烤制的甜浆果": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "甜浆果", null], [null, null, null]],
+        "ingredients": [["甜浆果"]]
+    },
+    "切碎的发光浆果": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "发光浆果", null], [null, null, null]],
+        "ingredients": [["发光浆果"]]
+    },
+    "捣碎的发光浆果": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "发光浆果", null], [null, null, null]],
+        "ingredients": [["发光浆果"]]
+    },
+    "切片的发光浆果": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "发光浆果", null], [null, null, null]],
+        "ingredients": [["发光浆果"]]
+    },
+    "剁碎的发光浆果": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "发光浆果", null], [null, null, null]],
+        "ingredients": [["发光浆果"]]
+    },
+    "搅拌的发光浆果": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "发光浆果", null], [null, null, null]],
+        "ingredients": [["发光浆果"]]
+    },
+    "煮熟的发光浆果": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "发光浆果", null], [null, null, null]],
+        "ingredients": [["发光浆果"]]
+    },
+    "油炸的发光浆果": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "发光浆果", null], [null, null, null]],
+        "ingredients": [["发光浆果"]]
+    },
+    "烤制的发光浆果": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "发光浆果", null], [null, null, null]],
+        "ingredients": [["发光浆果"]]
+    },
+    "切碎的甜菜根": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "甜菜根", null], [null, null, null]],
+        "ingredients": [["甜菜根"]]
+    },
+    "捣碎的甜菜根": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "甜菜根", null], [null, null, null]],
+        "ingredients": [["甜菜根"]]
+    },
+    "切片的甜菜根": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "甜菜根", null], [null, null, null]],
+        "ingredients": [["甜菜根"]]
+    },
+    "剁碎的甜菜根": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "甜菜根", null], [null, null, null]],
+        "ingredients": [["甜菜根"]]
+    },
+    "搅拌的甜菜根": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "甜菜根", null], [null, null, null]],
+        "ingredients": [["甜菜根"]]
+    },
+    "煮熟的甜菜根": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "甜菜根", null], [null, null, null]],
+        "ingredients": [["甜菜根"]]
+    },
+    "油炸的甜菜根": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "甜菜根", null], [null, null, null]],
+        "ingredients": [["甜菜根"]]
+    },
+    "烤制的甜菜根": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "甜菜根", null], [null, null, null]],
+        "ingredients": [["甜菜根"]]
+    },
+    "切碎的金苹果": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "金苹果", null], [null, null, null]],
+        "ingredients": [["金苹果"]]
+    },
+    "捣碎的金苹果": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "金苹果", null], [null, null, null]],
+        "ingredients": [["金苹果"]]
+    },
+    "切片的金苹果": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "金苹果", null], [null, null, null]],
+        "ingredients": [["金苹果"]]
+    },
+    "剁碎的金苹果": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "金苹果", null], [null, null, null]],
+        "ingredients": [["金苹果"]]
+    },
+    "搅拌的金苹果": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "金苹果", null], [null, null, null]],
+        "ingredients": [["金苹果"]]
+    },
+    "煮熟的金苹果": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "金苹果", null], [null, null, null]],
+        "ingredients": [["金苹果"]]
+    },
+    "油炸的金苹果": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "金苹果", null], [null, null, null]],
+        "ingredients": [["金苹果"]]
+    },
+    "烤制的金苹果": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "金苹果", null], [null, null, null]],
+        "ingredients": [["金苹果"]]
+    },
+    "切碎的附魔金苹果": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "附魔金苹果", null], [null, null, null]],
+        "ingredients": [["附魔金苹果"]]
+    },
+    "捣碎的附魔金苹果": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "附魔金苹果", null], [null, null, null]],
+        "ingredients": [["附魔金苹果"]]
+    },
+    "切片的附魔金苹果": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "附魔金苹果", null], [null, null, null]],
+        "ingredients": [["附魔金苹果"]]
+    },
+    "剁碎的附魔金苹果": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "附魔金苹果", null], [null, null, null]],
+        "ingredients": [["附魔金苹果"]]
+    },
+    "搅拌的附魔金苹果": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "附魔金苹果", null], [null, null, null]],
+        "ingredients": [["附魔金苹果"]]
+    },
+    "煮熟的附魔金苹果": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "附魔金苹果", null], [null, null, null]],
+        "ingredients": [["附魔金苹果"]]
+    },
+    "油炸的附魔金苹果": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "附魔金苹果", null], [null, null, null]],
+        "ingredients": [["附魔金苹果"]]
+    },
+    "烤制的附魔金苹果": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "附魔金苹果", null], [null, null, null]],
+        "ingredients": [["附魔金苹果"]]
+    },
+    "切碎的胡萝卜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "胡萝卜", null], [null, null, null]],
+        "ingredients": [["胡萝卜"]]
+    },
+    "捣碎的胡萝卜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "胡萝卜", null], [null, null, null]],
+        "ingredients": [["胡萝卜"]]
+    },
+    "切片的胡萝卜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "胡萝卜", null], [null, null, null]],
+        "ingredients": [["胡萝卜"]]
+    },
+    "剁碎的胡萝卜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "胡萝卜", null], [null, null, null]],
+        "ingredients": [["胡萝卜"]]
+    },
+    "搅拌的胡萝卜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "胡萝卜", null], [null, null, null]],
+        "ingredients": [["胡萝卜"]]
+    },
+    "煮熟的胡萝卜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "胡萝卜", null], [null, null, null]],
+        "ingredients": [["胡萝卜"]]
+    },
+    "油炸的胡萝卜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "胡萝卜", null], [null, null, null]],
+        "ingredients": [["胡萝卜"]]
+    },
+    "烤制的胡萝卜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "胡萝卜", null], [null, null, null]],
+        "ingredients": [["胡萝卜"]]
+    },
+    "切碎的金胡萝卜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "金胡萝卜", null], [null, null, null]],
+        "ingredients": [["金胡萝卜"]]
+    },
+    "捣碎的金胡萝卜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "金胡萝卜", null], [null, null, null]],
+        "ingredients": [["金胡萝卜"]]
+    },
+    "切片的金胡萝卜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "金胡萝卜", null], [null, null, null]],
+        "ingredients": [["金胡萝卜"]]
+    },
+    "剁碎的金胡萝卜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "金胡萝卜", null], [null, null, null]],
+        "ingredients": [["金胡萝卜"]]
+    },
+    "搅拌的金胡萝卜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "金胡萝卜", null], [null, null, null]],
+        "ingredients": [["金胡萝卜"]]
+    },
+    "煮熟的金胡萝卜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "金胡萝卜", null], [null, null, null]],
+        "ingredients": [["金胡萝卜"]]
+    },
+    "油炸的金胡萝卜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "金胡萝卜", null], [null, null, null]],
+        "ingredients": [["金胡萝卜"]]
+    },
+    "烤制的金胡萝卜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "金胡萝卜", null], [null, null, null]],
+        "ingredients": [["金胡萝卜"]]
+    },
+    "切碎的鸡蛋": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "鸡蛋", null], [null, null, null]],
+        "ingredients": [["鸡蛋"]]
+    },
+    "捣碎的鸡蛋": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "鸡蛋", null], [null, null, null]],
+        "ingredients": [["鸡蛋"]]
+    },
+    "切片的鸡蛋": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "鸡蛋", null], [null, null, null]],
+        "ingredients": [["鸡蛋"]]
+    },
+    "剁碎的鸡蛋": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "鸡蛋", null], [null, null, null]],
+        "ingredients": [["鸡蛋"]]
+    },
+    "搅拌的鸡蛋": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "鸡蛋", null], [null, null, null]],
+        "ingredients": [["鸡蛋"]]
+    },
+    "煮熟的鸡蛋": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "鸡蛋", null], [null, null, null]],
+        "ingredients": [["鸡蛋"]]
+    },
+    "油炸的鸡蛋": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "鸡蛋", null], [null, null, null]],
+        "ingredients": [["鸡蛋"]]
+    },
+    "烤制的鸡蛋": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "鸡蛋", null], [null, null, null]],
+        "ingredients": [["鸡蛋"]]
+    },
+    "切碎的马铃薯": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "马铃薯", null], [null, null, null]],
+        "ingredients": [["马铃薯"]]
+    },
+    "捣碎的马铃薯": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "马铃薯", null], [null, null, null]],
+        "ingredients": [["马铃薯"]]
+    },
+    "切片的马铃薯": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "马铃薯", null], [null, null, null]],
+        "ingredients": [["马铃薯"]]
+    },
+    "剁碎的马铃薯": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "马铃薯", null], [null, null, null]],
+        "ingredients": [["马铃薯"]]
+    },
+    "搅拌的马铃薯": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "马铃薯", null], [null, null, null]],
+        "ingredients": [["马铃薯"]]
+    },
+    "煮熟的马铃薯": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "马铃薯", null], [null, null, null]],
+        "ingredients": [["马铃薯"]]
+    },
+    "油炸的马铃薯": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "马铃薯", null], [null, null, null]],
+        "ingredients": [["马铃薯"]]
+    },
+    "烤制的马铃薯": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "马铃薯", null], [null, null, null]],
+        "ingredients": [["马铃薯"]]
+    },
+    "切碎的紫颂果": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "紫颂果", null], [null, null, null]],
+        "ingredients": [["紫颂果"]]
+    },
+    "捣碎的紫颂果": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "紫颂果", null], [null, null, null]],
+        "ingredients": [["紫颂果"]]
+    },
+    "切片的紫颂果": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "紫颂果", null], [null, null, null]],
+        "ingredients": [["紫颂果"]]
+    },
+    "剁碎的紫颂果": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "紫颂果", null], [null, null, null]],
+        "ingredients": [["紫颂果"]]
+    },
+    "搅拌的紫颂果": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "紫颂果", null], [null, null, null]],
+        "ingredients": [["紫颂果"]]
+    },
+    "煮熟的紫颂果": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "紫颂果", null], [null, null, null]],
+        "ingredients": [["紫颂果"]]
+    },
+    "油炸的紫颂果": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "紫颂果", null], [null, null, null]],
+        "ingredients": [["紫颂果"]]
+    },
+    "烤制的紫颂果": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "紫颂果", null], [null, null, null]],
+        "ingredients": [["紫颂果"]]
+    },
+    "切碎的西瓜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "西瓜", null], [null, null, null]],
+        "ingredients": [["西瓜"]]
+    },
+    "捣碎的西瓜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "西瓜", null], [null, null, null]],
+        "ingredients": [["西瓜"]]
+    },
+    "切片的西瓜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "西瓜", null], [null, null, null]],
+        "ingredients": [["西瓜"]]
+    },
+    "剁碎的西瓜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "西瓜", null], [null, null, null]],
+        "ingredients": [["西瓜"]]
+    },
+    "搅拌的西瓜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "西瓜", null], [null, null, null]],
+        "ingredients": [["西瓜"]]
+    },
+    "煮熟的西瓜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "西瓜", null], [null, null, null]],
+        "ingredients": [["西瓜"]]
+    },
+    "油炸的西瓜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "西瓜", null], [null, null, null]],
+        "ingredients": [["西瓜"]]
+    },
+    "烤制的西瓜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "西瓜", null], [null, null, null]],
+        "ingredients": [["西瓜"]]
+    },
+    "切碎的南瓜": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "南瓜", null], [null, null, null]],
+        "ingredients": [["南瓜"]]
+    },
+    "捣碎的南瓜": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "南瓜", null], [null, null, null]],
+        "ingredients": [["南瓜"]]
+    },
+    "切片的南瓜": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "南瓜", null], [null, null, null]],
+        "ingredients": [["南瓜"]]
+    },
+    "剁碎的南瓜": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "南瓜", null], [null, null, null]],
+        "ingredients": [["南瓜"]]
+    },
+    "搅拌的南瓜": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "南瓜", null], [null, null, null]],
+        "ingredients": [["南瓜"]]
+    },
+    "煮熟的南瓜": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "南瓜", null], [null, null, null]],
+        "ingredients": [["南瓜"]]
+    },
+    "油炸的南瓜": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "南瓜", null], [null, null, null]],
+        "ingredients": [["南瓜"]]
+    },
+    "烤制的南瓜": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "南瓜", null], [null, null, null]],
+        "ingredients": [["南瓜"]]
+    },
+    "切碎的腐肉": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "腐肉", null], [null, null, null]],
+        "ingredients": [["腐肉"]]
+    },
+    "捣碎的腐肉": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "腐肉", null], [null, null, null]],
+        "ingredients": [["腐肉"]]
+    },
+    "切片的腐肉": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "腐肉", null], [null, null, null]],
+        "ingredients": [["腐肉"]]
+    },
+    "剁碎的腐肉": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "腐肉", null], [null, null, null]],
+        "ingredients": [["腐肉"]]
+    },
+    "搅拌的腐肉": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "腐肉", null], [null, null, null]],
+        "ingredients": [["腐肉"]]
+    },
+    "煮熟的腐肉": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "腐肉", null], [null, null, null]],
+        "ingredients": [["腐肉"]]
+    },
+    "油炸的腐肉": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "腐肉", null], [null, null, null]],
+        "ingredients": [["腐肉"]]
+    },
+    "烤制的腐肉": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "腐肉", null], [null, null, null]],
+        "ingredients": [["腐肉"]]
+    },
+    "切碎的可可豆": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "可可豆", null], [null, null, null]],
+        "ingredients": [["可可豆"]]
+    },
+    "捣碎的可可豆": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "可可豆", null], [null, null, null]],
+        "ingredients": [["可可豆"]]
+    },
+    "切片的可可豆": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "可可豆", null], [null, null, null]],
+        "ingredients": [["可可豆"]]
+    },
+    "剁碎的可可豆": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "可可豆", null], [null, null, null]],
+        "ingredients": [["可可豆"]]
+    },
+    "搅拌的可可豆": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "可可豆", null], [null, null, null]],
+        "ingredients": [["可可豆"]]
+    },
+    "煮熟的可可豆": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "可可豆", null], [null, null, null]],
+        "ingredients": [["可可豆"]]
+    },
+    "油炸的可可豆": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "可可豆", null], [null, null, null]],
+        "ingredients": [["可可豆"]]
+    },
+    "烤制的可可豆": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "可可豆", null], [null, null, null]],
+        "ingredients": [["可可豆"]]
+    },
+    "切碎的棕色蘑菇": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "棕色蘑菇", null], [null, null, null]],
+        "ingredients": [["棕色蘑菇"]]
+    },
+    "捣碎的棕色蘑菇": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "棕色蘑菇", null], [null, null, null]],
+        "ingredients": [["棕色蘑菇"]]
+    },
+    "切片的棕色蘑菇": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "棕色蘑菇", null], [null, null, null]],
+        "ingredients": [["棕色蘑菇"]]
+    },
+    "剁碎的棕色蘑菇": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "棕色蘑菇", null], [null, null, null]],
+        "ingredients": [["棕色蘑菇"]]
+    },
+    "搅拌的棕色蘑菇": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "棕色蘑菇", null], [null, null, null]],
+        "ingredients": [["棕色蘑菇"]]
+    },
+    "煮熟的棕色蘑菇": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "棕色蘑菇", null], [null, null, null]],
+        "ingredients": [["棕色蘑菇"]]
+    },
+    "油炸的棕色蘑菇": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "棕色蘑菇", null], [null, null, null]],
+        "ingredients": [["棕色蘑菇"]]
+    },
+    "烤制的棕色蘑菇": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "棕色蘑菇", null], [null, null, null]],
+        "ingredients": [["棕色蘑菇"]]
+    },
+    "切碎的红色蘑菇": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "红色蘑菇", null], [null, null, null]],
+        "ingredients": [["红色蘑菇"]]
+    },
+    "捣碎的红色蘑菇": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "红色蘑菇", null], [null, null, null]],
+        "ingredients": [["红色蘑菇"]]
+    },
+    "切片的红色蘑菇": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "红色蘑菇", null], [null, null, null]],
+        "ingredients": [["红色蘑菇"]]
+    },
+    "剁碎的红色蘑菇": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "红色蘑菇", null], [null, null, null]],
+        "ingredients": [["红色蘑菇"]]
+    },
+    "搅拌的红色蘑菇": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "红色蘑菇", null], [null, null, null]],
+        "ingredients": [["红色蘑菇"]]
+    },
+    "煮熟的红色蘑菇": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "红色蘑菇", null], [null, null, null]],
+        "ingredients": [["红色蘑菇"]]
+    },
+    "油炸的红色蘑菇": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "红色蘑菇", null], [null, null, null]],
+        "ingredients": [["红色蘑菇"]]
+    },
+    "烤制的红色蘑菇": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "红色蘑菇", null], [null, null, null]],
+        "ingredients": [["红色蘑菇"]]
+    },
+    "切碎的小麦": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "小麦", null], [null, null, null]],
+        "ingredients": [["小麦"]]
+    },
+    "捣碎的小麦": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "小麦", null], [null, null, null]],
+        "ingredients": [["小麦"]]
+    },
+    "切片的小麦": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "小麦", null], [null, null, null]],
+        "ingredients": [["小麦"]]
+    },
+    "剁碎的小麦": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "小麦", null], [null, null, null]],
+        "ingredients": [["小麦"]]
+    },
+    "搅拌的小麦": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "小麦", null], [null, null, null]],
+        "ingredients": [["小麦"]]
+    },
+    "煮熟的小麦": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "小麦", null], [null, null, null]],
+        "ingredients": [["小麦"]]
+    },
+    "油炸的小麦": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "小麦", null], [null, null, null]],
+        "ingredients": [["小麦"]]
+    },
+    "烤制的小麦": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "小麦", null], [null, null, null]],
+        "ingredients": [["小麦"]]
+    },
+    "切碎的河豚": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "河豚", null], [null, null, null]],
+        "ingredients": [["河豚"]]
+    },
+    "捣碎的河豚": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "河豚", null], [null, null, null]],
+        "ingredients": [["河豚"]]
+    },
+    "切片的河豚": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "河豚", null], [null, null, null]],
+        "ingredients": [["河豚"]]
+    },
+    "剁碎的河豚": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "河豚", null], [null, null, null]],
+        "ingredients": [["河豚"]]
+    },
+    "搅拌的河豚": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "河豚", null], [null, null, null]],
+        "ingredients": [["河豚"]]
+    },
+    "煮熟的河豚": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "河豚", null], [null, null, null]],
+        "ingredients": [["河豚"]]
+    },
+    "油炸的河豚": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "河豚", null], [null, null, null]],
+        "ingredients": [["河豚"]]
+    },
+    "烤制的河豚": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "河豚", null], [null, null, null]],
+        "ingredients": [["河豚"]]
+    },
+    "切碎的面包": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "面包", null], [null, null, null]],
+        "ingredients": [["面包"]]
+    },
+    "捣碎的面包": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "面包", null], [null, null, null]],
+        "ingredients": [["面包"]]
+    },
+    "切片的面包": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "面包", null], [null, null, null]],
+        "ingredients": [["面包"]]
+    },
+    "剁碎的面包": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "面包", null], [null, null, null]],
+        "ingredients": [["面包"]]
+    },
+    "搅拌的面包": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "面包", null], [null, null, null]],
+        "ingredients": [["面包"]]
+    },
+    "煮熟的面包": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "面包", null], [null, null, null]],
+        "ingredients": [["面包"]]
+    },
+    "油炸的面包": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "面包", null], [null, null, null]],
+        "ingredients": [["面包"]]
+    },
+    "烤制的面包": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "面包", null], [null, null, null]],
+        "ingredients": [["面包"]]
+    },
+    "切碎的糖": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "糖", null], [null, null, null]],
+        "ingredients": [["糖"]]
+    },
+    "捣碎的糖": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "糖", null], [null, null, null]],
+        "ingredients": [["糖"]]
+    },
+    "切片的糖": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "糖", null], [null, null, null]],
+        "ingredients": [["糖"]]
+    },
+    "剁碎的糖": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "糖", null], [null, null, null]],
+        "ingredients": [["糖"]]
+    },
+    "搅拌的糖": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "糖", null], [null, null, null]],
+        "ingredients": [["糖"]]
+    },
+    "煮熟的糖": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "糖", null], [null, null, null]],
+        "ingredients": [["糖"]]
+    },
+    "油炸的糖": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "糖", null], [null, null, null]],
+        "ingredients": [["糖"]]
+    },
+    "烤制的糖": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "糖", null], [null, null, null]],
+        "ingredients": [["糖"]]
+    },
+    "切碎的海带": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "海带", null], [null, null, null]],
+        "ingredients": [["海带"]]
+    },
+    "捣碎的海带": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "海带", null], [null, null, null]],
+        "ingredients": [["海带"]]
+    },
+    "切片的海带": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "海带", null], [null, null, null]],
+        "ingredients": [["海带"]]
+    },
+    "剁碎的海带": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "海带", null], [null, null, null]],
+        "ingredients": [["海带"]]
+    },
+    "搅拌的海带": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "海带", null], [null, null, null]],
+        "ingredients": [["海带"]]
+    },
+    "煮熟的海带": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "海带", null], [null, null, null]],
+        "ingredients": [["海带"]]
+    },
+    "油炸的海带": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "海带", null], [null, null, null]],
+        "ingredients": [["海带"]]
+    },
+    "烤制的海带": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "海带", null], [null, null, null]],
+        "ingredients": [["海带"]]
+    },
+    "花生酱": {
+        "type": "上菜",
+        "map": [["搅拌的花生", "糖", "黄油"], [null, null, null], [null, null, null]],
+        "ingredients": [["搅拌的花生"], ["糖"], ["黄油"]]
+    },
+    "葡萄酱": {
+        "type": "上菜",
+        "map": [["搅拌的葡萄", "糖", null], [null, null, null], [null, null, null]],
+        "ingredients": [["搅拌的葡萄"], ["糖"]]
+    },
+    "草莓酱": {
+        "type": "上菜",
+        "map": [["搅拌的草莓", "糖", null], [null, null, null], [null, null, null]],
+        "ingredients": [["搅拌的草莓"], ["糖"]]
+    },
+    "蛋黄酱": {
+        "type": "上菜",
+        "map": [["剁碎的油菜", "鸡蛋", null], [null, null, null], [null, null, null]],
+        "ingredients": [["剁碎的油菜"], ["鸡蛋"]]
+    },
+    "鸡蛋沙拉": {
+        "type": "上菜",
+        "map": [["煮熟的鸡蛋", "蛋黄酱", null], [null, null, null], [null, null, null]],
+        "ingredients": [["煮熟的鸡蛋"], ["蛋黄酱"]]
+    },
+    "馅饼皮": {
+        "type": "上菜",
+        "map": [["奶桶", "搅拌的鸡蛋", "小麦粉"], [null, null, null], [null, null, null]],
+        "ingredients": [["奶桶"], ["搅拌的鸡蛋"], ["小麦粉"]]
+    },
+    "意大利通心粉": {
+        "type": "上菜",
+        "map": [["小麦粉", "搅拌的鸡蛋", null], [null, null, null], [null, null, null]],
+        "ingredients": [["小麦粉"], ["搅拌的鸡蛋"]]
+    },
+    "饼干面团": {
+        "type": "上菜",
+        "map": [["小麦粉", "糖", "黄油"], ["奶桶", null, null], [null, null, null]],
+        "ingredients": [["小麦粉"], ["糖"], ["黄油"], ["奶桶"]]
+    },
+    "定型的饼干": {
+        "type": "上菜",
+        "map": [["饼干面团", "饼干面团", "饼干面团"], [null, null, null], [null, null, null]],
+        "ingredients": [["饼干面团", 3]]
+    },
+    "肉球": {
+        "type": "上菜",
+        "map": [["剁碎的生牛肉", "搅拌的鸡蛋", null], ["小麦粉", "盐", null], [null, null, null]],
+        "ingredients": [["剁碎的生牛肉"], ["搅拌的鸡蛋"], ["小麦粉"], ["盐"]]
+    },
+    "切碎的意大利香肠": {
+        "type": "切碎",
+        "map": [[null, null, null], [null, "意大利香肠", null], [null, null, null]],
+        "ingredients": [["意大利香肠"]]
+    },
+    "捣碎的意大利香肠": {
+        "type": "捣碎",
+        "map": [[null, null, null], [null, "意大利香肠", null], [null, null, null]],
+        "ingredients": [["意大利香肠"]]
+    },
+    "切片的意大利香肠": {
+        "type": "切片",
+        "map": [[null, null, null], [null, "意大利香肠", null], [null, null, null]],
+        "ingredients": [["意大利香肠"]]
+    },
+    "剁碎的意大利香肠": {
+        "type": "剁碎",
+        "map": [[null, null, null], [null, "意大利香肠", null], [null, null, null]],
+        "ingredients": [["意大利香肠"]]
+    },
+    "搅拌的意大利香肠": {
+        "type": "搅拌",
+        "map": [[null, null, null], [null, "意大利香肠", null], [null, null, null]],
+        "ingredients": [["意大利香肠"]]
+    },
+    "煮熟的意大利香肠": {
+        "type": "煮熟",
+        "map": [[null, null, null], [null, "意大利香肠", null], [null, null, null]],
+        "ingredients": [["意大利香肠"]]
+    },
+    "油炸的意大利香肠": {
+        "type": "油炸",
+        "map": [[null, null, null], [null, "意大利香肠", null], [null, null, null]],
+        "ingredients": [["意大利香肠"]]
+    },
+    "烤制的意大利香肠": {
+        "type": "烤制",
+        "map": [[null, null, null], [null, "意大利香肠", null], [null, null, null]],
+        "ingredients": [["意大利香肠"]]
+    },
+    "意大利香肠": {
+        "type": "上菜",
+        "map": [["剁碎的生猪排", "剁碎的大蒜", "剁碎的卡宴辣椒"], ["剁碎的芥菜种子", "盐", null], [null, null, null]],
+        "ingredients": [["剁碎的生猪排"], ["剁碎的大蒜"], ["剁碎的卡宴辣椒"], ["剁碎的芥菜种子"], ["盐"]]
+    },
+    "面团": {
+        "type": "上菜",
+        "map": [["小麦粉", "小麦粉", "鸡蛋"], ["水桶", "盐", null], [null, null, null]],
+        "ingredients": [["小麦粉", 2], ["鸡蛋"], ["水桶"], ["盐"]]
+    },
+    "奶油芝士": {
+        "type": "上菜",
+        "map": [["奶桶", "盐", "搅拌的柠檬"], [null, null, null], [null, null, null]],
+        "ingredients": [["奶桶"], ["盐"], ["搅拌的柠檬"]]
+    },
+    "蕃茄酱": {
+        "type": "上菜",
+        "map": [["搅拌的番茄", "糖", null], [null, null, null], [null, null, null]],
+        "ingredients": [["搅拌的番茄"], ["糖"]]
+    },
+    "芥末": {
+        "type": "上菜",
+        "map": [["搅拌的芥菜种子", "水桶", "盐"], ["切碎的百里香", "切碎的姜黄", "糖"], [null, null, null]],
+        "ingredients": [["搅拌的芥菜种子"], ["水桶"], ["盐"], ["切碎的百里香"], ["切碎的姜黄"], ["糖"]]
+    },
+    "玉米粉圆饼": {
+        "type": "上菜",
+        "map": [["剁碎的甜玉米", "剁碎的甜玉米", "剁碎的甜玉米"], [null, null, null], [null, null, null]],
+        "ingredients": [["剁碎的甜玉米", 3]]
+    },
+    "墨西哥莎莎酱": {
+        "type": "上菜",
+        "map": [["切碎的番茄", "切碎的辣椒", "切碎的洋葱"], ["搅拌的酸橙", "切碎的香菜", null], [null, null, null]],
+        "ingredients": [["切碎的番茄"], ["切碎的辣椒"], ["切碎的洋葱"], ["搅拌的酸橙"], ["切碎的香菜"]]
+    },
+    "熟汉堡肉饼": {
+        "type": "烘焙",
+        "map": [["剁碎的生牛肉", null, null], [null, null, null], [null, null, null]],
+        "ingredients": [["剁碎的生牛肉"]]
+    },
+    "柠檬糖": {
+        "type": "上菜",
+        "map": [["煮熟的柠檬", "煮熟的糖", null], [null, null, null], [null, null, null]],
+        "ingredients": [["煮熟的柠檬"], ["煮熟的糖"]]
+    },
+    "花生酱果冻三明治": {
+        "type": "上菜",
+        "map": [[null, "切片的面包", null], ["葡萄酱", "花生酱", "草莓酱"], [null, "切片的面包", null]],
+        "ingredients": [["切片的面包", 2], ["葡萄酱"], ["花生酱"], ["草莓酱"]]
+    },
+    "培根三明治": {
+        "type": "上菜",
+        "map": [[null, "切片的面包", null], [null, "油炸的生猪排", null], [null, "切片的面包", null]],
+        "ingredients": [["切片的面包", 2], ["油炸的生猪排"]]
+    },
+    "三文鱼寿司": {
+        "type": "上菜",
+        "map": [[null, "切片的生鲑鱼", null], [null, "煮熟的大米", null], [null, null, null]],
+        "ingredients": [["切片的生鲑鱼"], ["煮熟的大米"]]
+    },
+    "卡津大蒜黄油鳕鱼": {
+        "type": "烘焙",
+        "map": [["油炸的生鳕鱼", "黄油", null], ["切碎的大蒜", "剁碎的卡宴辣椒", null], [null, null, null]],
+        "ingredients": [["油炸的生鳕鱼"], ["黄油"], ["切碎的大蒜"], ["剁碎的卡宴辣椒"]]
+    },
+    "沙卡蔬卡": {
+        "type": "烘焙",
+        "map": [["鸡蛋", "切碎的洋葱", "甜椒"], ["切碎的大蒜", "剁碎的甜椒", "番茄"], [null, null, null]],
+        "ingredients": [["鸡蛋"], ["切碎的洋葱"], ["甜椒"], ["切碎的大蒜"], ["剁碎的甜椒"], ["番茄"]]
+    },
+    "河豚": {
+        "type": "上菜",
+        "map": [[null, "切片的河豚", null], [null, "煮熟的大米", null], [null, null, null]],
+        "ingredients": [["切片的河豚"], ["煮熟的大米"]]
+    },
+    "牧羊人派": {
+        "type": "烘焙",
+        "map": [["奶酪", "捣碎的马铃薯", "奶酪"], ["切碎的胡萝卜", "豌豆", "油炸的洋葱"], ["剁碎的生牛肉", "剁碎的生牛肉", "剁碎的生牛肉"]],
+        "ingredients": [["奶酪", 2], ["捣碎的马铃薯"], ["切碎的胡萝卜"], ["豌豆"], ["油炸的洋葱"], ["剁碎的生牛肉", 3]]
+    },
+    "鸡蛋沙拉三明治": {
+        "type": "上菜",
+        "map": [[null, "切片的面包", null], ["切碎的生菜", "鸡蛋沙拉", "切片的番茄"], [null, "切片的面包", null]],
+        "ingredients": [["切片的面包", 2], ["切碎的生菜"], ["鸡蛋沙拉"], ["切片的番茄"]]
+    },
+    "鸡肉馅饼": {
+        "type": "烘焙",
+        "map": [[null, "馅饼皮", null], ["切碎的胡萝卜", "切碎的生鸡肉", "切碎的洋葱"], ["黄油", "奶桶", "剁碎的芥菜种子"]],
+        "ingredients": [["馅饼皮"], ["切碎的胡萝卜"], ["切碎的生鸡肉"], ["切碎的洋葱"], ["黄油"], ["奶桶"], ["剁碎的芥菜种子"]]
+    },
+    "烤鸡意大利面": {
+        "type": "烘焙",
+        "map": [["奶酪", "奶酪", "奶酪"], ["意大利通心粉", "意大利通心粉", "意大利通心粉"], ["剁碎的大蒜", "奶桶", "剁碎的芥菜种子"]],
+        "ingredients": [["奶酪", 3], ["意大利通心粉", 3], ["剁碎的大蒜"], ["奶桶"], ["剁碎的芥菜种子"]]
+    },
+    "鸡肉白酱通心粉": {
+        "type": "烘焙",
+        "map": [["奶酪", "切碎的西兰花", "奶酪"], ["意大利通心粉", "切片的生鸡肉", "意大利通心粉"], ["剁碎的大蒜", "浓奶油", "切碎的洋葱"]],
+        "ingredients": [["奶酪", 2], ["切碎的西兰花"], ["意大利通心粉", 2], ["切片的生鸡肉"], ["剁碎的大蒜"], ["浓奶油"], ["切碎的洋葱"]]
+    },
+    "加糖的骷髅头": {
+        "type": "烘焙",
+        "map": [["剁碎的糖", "剁碎的糖", "剁碎的糖"], [null, "骷髅头颅", null], [null, null, null]],
+        "ingredients": [["剁碎的糖", 3], ["骷髅头颅"]]
+    },
+    "青柠派": {
+        "type": "烘焙",
+        "map": [["搅拌的酸橙", "浓奶油", "剁碎的酸橙"], ["糖", "鸡蛋", "黄油"], ["定型的饼干", "定型的饼干", "定型的饼干"]],
+        "ingredients": [["搅拌的酸橙"], ["浓奶油"], ["剁碎的酸橙"], ["糖"], ["鸡蛋"], ["黄油"], ["定型的饼干", 3]]
+    },
+    "塔基托": {
+        "type": "烘焙",
+        "map": [["奶酪", "切碎的生鸡肉", "墨西哥莎莎酱"], ["剁碎的孜然", "切碎的辣椒", "剁碎的黑胡椒"], ["玉米粉圆饼", "玉米粉圆饼", "玉米粉圆饼"]],
+        "ingredients": [["奶酪"], ["切碎的生鸡肉"], ["墨西哥莎莎酱"], ["剁碎的孜然"], ["切碎的辣椒"], ["剁碎的黑胡椒"], ["玉米粉圆饼", 3]]
+    },
+    "水果沙拉": {
+        "type": "上菜",
+        "map": [["切碎的苹果", "切碎的梨", "切碎的橘子"], ["切碎的奇异果", "切碎的杏子", "切碎的香蕉"], [null, null, null]],
+        "ingredients": [["切碎的苹果"], ["切碎的梨"], ["切碎的橘子"], ["切碎的奇异果"], ["切碎的杏子"], ["切碎的香蕉"]]
+    },
+    "凯撒沙拉": {
+        "type": "上菜",
+        "map": [["切碎的番茄", "切碎的生菜", "烤制的生鸡肉"], ["剁碎的油菜", "切片的甜椒", "搅拌的芥菜种子"], [null, null, null]],
+        "ingredients": [["切碎的番茄"], ["切碎的生菜"], ["烤制的生鸡肉"], ["剁碎的油菜"], ["切片的甜椒"], ["搅拌的芥菜种子"]]
+    },
+    "一碗…史蒂夫？": {
+        "type": "上菜",
+        "map": [[null, "玩家的头", null], ["切片的番茄", "切片的甜椒", "切片的黄瓜"], ["切碎的生菜", "切碎的生菜", "切碎的生菜"]],
+        "ingredients": [["玩家的头"], ["切片的番茄"], ["切片的甜椒"], ["切片的黄瓜"], ["切碎的生菜", 3]]
+    },
+    "饼干": {
+        "type": "烘焙",
+        "map": [["饼干面团", null, null], [null, null, null], [null, null, null]],
+        "ingredients": [["饼干面团"]]
+    },
+    "压缩饼干": {
+        "type": "上菜",
+        "map": [["饼干", "饼干", "饼干"], ["饼干", "饼干", "饼干"], ["饼干", "饼干", "饼干"]],
+        "ingredients": [["饼干", 9]]
+    },
+    "烤三文鱼沙拉": {
+        "type": "上菜",
+        "map": [[null, "烤制的生鲑鱼", null], ["切片的生菜", "切片的生菜", "切片的生菜"], ["切片的番茄", "剁碎的油菜", "切片的红色蘑菇"]],
+        "ingredients": [["烤制的生鲑鱼"], ["切片的生菜", 3], ["切片的番茄"], ["剁碎的油菜"], ["切片的红色蘑菇"]]
+    },
+    "凋灵玫瑰沙拉": {
+        "type": "上菜",
+        "map": [[null, "凋灵玫瑰", null], ["切片的生菜", "切片的生菜", "切片的生菜"], ["切片的番茄", "剁碎的油菜", "切片的红色蘑菇"]],
+        "ingredients": [["凋灵玫瑰"], ["切片的生菜", 3], ["切片的番茄"], ["剁碎的油菜"], ["切片的红色蘑菇"]]
+    },
+    "橙汁": {
+        "type": "上菜",
+        "map": [["搅拌的橘子", "玻璃", null], [null, null, null], [null, null, null]],
+        "ingredients": [["搅拌的橘子"], ["玻璃"]]
+    },
+    "宽面": {
+        "type": "烘焙",
+        "map": [["意大利通心粉", "奶酪", "切碎的番茄"], ["浓奶油", "意大利通心粉", "奶酪"], ["切碎的番茄", "奶酪", "意大利通心粉"]],
+        "ingredients": [["意大利通心粉", 3], ["奶酪", 3], ["切碎的番茄", 2], ["浓奶油"]]
+    },
+    "意大利面": {
+        "type": "上菜",
+        "map": [["意大利通心粉", null, null], [null, "意大利通心粉", null], [null, null, "意大利通心粉"]],
+        "ingredients": [["意大利通心粉", 3]]
+    },
+    "肉球意大利面": {
+        "type": "烘焙",
+        "map": [[null, "肉球", null], [null, "意大利面", null], [null, null, null]],
+        "ingredients": [["肉球"], ["意大利面"]]
+    },
+    "汉堡": {
+        "type": "上菜",
+        "map": [[null, "面包", null], ["奶酪", "熟汉堡肉饼", "切片的番茄"], [null, "面包", null]],
+        "ingredients": [["面包", 2], ["奶酪"], ["熟汉堡肉饼"], ["切片的番茄"]]
+    },
+    "芝士披萨": {
+        "type": "烘焙",
+        "map": [["奶酪", "奶酪", "奶酪"], ["搅拌的番茄", "搅拌的番茄", "搅拌的番茄"], ["面团", "面团", "面团"]],
+        "ingredients": [["奶酪", 3], ["搅拌的番茄", 3], ["面团", 3]]
+    },
+    "蘑菇披萨": {
+        "type": "烘焙",
+        "map": [["奶酪", "切片的红色蘑菇", "奶酪"], ["搅拌的番茄", "搅拌的番茄", "搅拌的番茄"], ["面团", "面团", "面团"]],
+        "ingredients": [["奶酪", 2], ["切片的红色蘑菇"], ["搅拌的番茄", 3], ["面团", 3]]
+    },
+    "意大利香肠披萨": {
+        "type": "烘焙",
+        "map": [["奶酪", "切片的意大利香肠", "奶酪"], ["搅拌的番茄", "搅拌的番茄", "搅拌的番茄"], ["面团", "面团", "面团"]],
+        "ingredients": [["奶酪", 2], ["切片的意大利香肠"], ["搅拌的番茄", 3], ["面团", 3]]
+    },
+    "芝士西葫芦": {
+        "type": "烘焙",
+        "map": [["奶酪", "切片的西葫芦", "奶酪"], ["切片的西葫芦", "奶桶", "切片的西葫芦"], ["切碎的百里香", "盐", "黄油"]],
+        "ingredients": [["奶酪", 2], ["切片的西葫芦", 3], ["奶桶"], ["切碎的百里香"], ["盐"], ["黄油"]]
+    },
+    "山核桃派": {
+        "type": "烘焙",
+        "map": [["切碎的山核桃", "切碎的山核桃", "切碎的山核桃"], ["鸡蛋", "糖", "浓奶油"], ["馅饼皮", "馅饼皮", "馅饼皮"]],
+        "ingredients": [["切碎的山核桃", 3], ["鸡蛋"], ["糖"], ["浓奶油"], ["馅饼皮", 3]]
+    },
+    "蒜蓉黄油蘑菇": {
+        "type": "烘焙",
+        "map": [["黄油", "黄油", "黄油"], ["切碎的百里香", "切碎的大蒜", "盐"], ["切片的棕色蘑菇", "切片的棕色蘑菇", "切片的棕色蘑菇"]],
+        "ingredients": [["黄油", 3], ["切碎的百里香"], ["切碎的大蒜"], ["盐"], ["切片的棕色蘑菇", 3]]
+    },
+    "蓝色糖果": {
+        "type": "上菜",
+        "map": [["煮熟的糖", "煮熟的糖", "煮熟的糖"], ["煮熟的糖", "蓝色染料", "煮熟的糖"], ["煮熟的糖", "煮熟的糖", "煮熟的糖"]],
+        "ingredients": [["煮熟的糖", 8], ["蓝色染料"]]
+    },
+    "水煮蛋": {
+        "type": "上菜",
+        "map": [[null, null, null], [null, "煮熟的鸡蛋", null], [null, null, null]],
+        "ingredients": [["煮熟的鸡蛋"]]
+    },
+    "牛肉拉面": {
+        "type": "上菜",
+        "map": [[null, "煮熟的生牛肉", null], [null, "意大利通心粉", null], [null, null, null]],
+        "ingredients": [["煮熟的生牛肉"], ["意大利通心粉"]]
+    },
+    "鸡肉拉面": {
+        "type": "上菜",
+        "map": [[null, "煮熟的生鸡肉", null], [null, "意大利通心粉", null], [null, null, null]],
+        "ingredients": [["煮熟的生鸡肉"], ["意大利通心粉"]]
+    },
+    "海鲜拉面": {
+        "type": "上菜",
+        "map": [[null, "煮熟的生鳕鱼", null], [null, "意大利通心粉", null], [null, null, null]],
+        "ingredients": [["煮熟的生鳕鱼"], ["意大利通心粉"]]
+    },
+    "丰盛的牛肉拉面": {
+        "type": "上菜",
+        "map": [["菠菜", "豌豆", "油炸的鸡蛋"], ["胡萝卜", "牛肉拉面", "油炸的甜椒"], ["切碎的姜", "切碎的欧芹", "切碎的大蒜"]],
+        "ingredients": [["菠菜"], ["豌豆"], ["油炸的鸡蛋"], ["胡萝卜"], ["牛肉拉面"], ["油炸的甜椒"], ["切碎的姜"], ["切碎的欧芹"], ["切碎的大蒜"]]
+    },
+    "丰盛的鸡肉拉面": {
+        "type": "上菜",
+        "map": [["切碎的洋葱", "黄油", "切碎的红色蘑菇"], ["盐", "鸡肉拉面", "切片的辣椒"], ["切碎的姜", "切碎的欧芹", "切碎的大蒜"]],
+        "ingredients": [["切碎的洋葱"], ["黄油"], ["切碎的红色蘑菇"], ["盐"], ["鸡肉拉面"], ["切片的辣椒"], ["切碎的姜"], ["切碎的欧芹"], ["切碎的大蒜"]]
+    },
+    "丰盛的海鲜拉面": {
+        "type": "上菜",
+        "map": [["煮熟的鸡蛋", "烤制的河豚", "咖喱叶"], ["切片的酸橙", "海鲜拉面", "烤制的生鲑鱼"], ["切碎的姜", "切碎的香菜", "切碎的大蒜"]],
+        "ingredients": [["煮熟的鸡蛋"], ["烤制的河豚"], ["咖喱叶"], ["切片的酸橙"], ["海鲜拉面"], ["烤制的生鲑鱼"], ["切碎的姜"], ["切碎的香菜"], ["切碎的大蒜"]]
+    },
+    "贝果": {
+        "type": "烘焙",
+        "map": [[null, "盐", null], [null, "面团", null], [null, null, null]],
+        "ingredients": [["盐"], ["面团"]]
+    },
+    "贝果零食": {
+        "type": "上菜",
+        "map": [[null, "奶酪", null], [null, "搅拌的番茄", null], [null, "贝果", null]],
+        "ingredients": [["奶酪"], ["搅拌的番茄"], ["贝果"]]
+    },
+    "奶油芝士贝果": {
+        "type": "上菜",
+        "map": [[null, "贝果", null], [null, "奶油芝士", null], [null, null, null]],
+        "ingredients": [["贝果"], ["奶油芝士"]]
+    },
+    "肉饼": {
+        "type": "烘焙",
+        "map": [["蕃茄酱", "鸡蛋", "切碎的面包"], ["奶桶", "剁碎的生牛肉", "切碎的百里香"], ["盐", "切碎的洋葱", "芥末"]],
+        "ingredients": [["蕃茄酱"], ["鸡蛋"], ["切碎的面包"], ["奶桶"], ["剁碎的生牛肉"], ["切碎的百里香"], ["盐"], ["切碎的洋葱"], ["芥末"]]
+    },
+    "香肠": {
+        "type": "烤制",
+        "map": [["糖", "盐", "切碎的大蒜"], ["剁碎的生猪排", null, null], [null, null, null]],
+        "ingredients": [["糖"], ["盐"], ["切碎的大蒜"], ["剁碎的生猪排"]]
+    },
+    "Soylent": {
+        "type": "上菜",
+        "map": [["搅拌的生牛肉", "搅拌的香蕉", "搅拌的可可豆"], ["搅拌的鳄梨", "水桶", "搅拌的香子兰"], ["搅拌的菠菜", "搅拌的大豆", "冰"]],
+        "ingredients": [["搅拌的生牛肉"], ["搅拌的香蕉"], ["搅拌的可可豆"], ["搅拌的鳄梨"], ["水桶"], ["搅拌的香子兰"], ["搅拌的菠菜"], ["搅拌的大豆"], ["冰"]]
+    },
+    "土豆饼": {
+        "type": "上菜",
+        "map": [[null, "盐", null], [null, "油炸的马铃薯", null], [null, null, null]],
+        "ingredients": [["盐"], ["油炸的马铃薯"]]
+    },
+    "甜蜂巢": {
+        "type": "上菜",
+        "map": [["蜜脾", "蜜脾", "蜜脾"], [null, "蜂箱", null], [null, null, null]],
+        "ingredients": [["蜜脾", 3], ["蜂箱"]]
+    },
+    "肉桂卷": {
+        "type": "烘焙",
+        "map": [["面团", "面团", "糖"], ["面团", "剁碎的肉桂", "面团"], ["面团", "面团", "面团"]],
+        "ingredients": [["面团", 7], ["糖"], ["剁碎的肉桂"]]
     }
 };
