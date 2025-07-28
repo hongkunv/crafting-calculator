@@ -965,11 +965,6 @@ let recipes = {
         "map": [["浓缩下界冰", null, null], [null, null, null], [null, null, null]],
         "ingredients": [["浓缩下界冰"]]
     },
-    "筛矿": {
-        "type": "淘金盘",
-        "map": [["沙砾", null, null], [null, null, null], [null, null, null]],
-        "ingredients": [["沙砾"]]
-    },
     "小麦粉": {
         "type": "磨石",
         "map": [["小麦", null, null], [null, null, null], [null, null, null]],
@@ -2136,51 +2131,6 @@ let recipes = {
         "type": "盔甲锻造台",
         "map": [[null, null, null], ["彩虹皮革", null, "彩虹皮革"], ["彩虹皮革", null, "彩虹皮革"]],
         "ingredients": [["彩虹皮革", 4]]
-    },
-    "铁粉": {
-        "type": "矿石粉碎机",
-        "map": [["铁矿石", null, null], [null, null, null], [null, null, null]],
-        "ingredients": [["铁矿石"]]
-    },
-    "金粉": {
-        "type": "矿石粉碎机",
-        "map": [["金矿石", null, null], [null, null, null], [null, null, null]],
-        "ingredients": [["金矿石"]]
-    },
-    "铜粉": {
-        "type": "洗矿机",
-        "map": [["筛矿", null, null], [null, null, null], [null, null, null]],
-        "ingredients": [["筛矿"]]
-    },
-    "锡粉": {
-        "type": "洗矿机",
-        "map": [["筛矿", null, null], [null, null, null], [null, null, null]],
-        "ingredients": [["筛矿"]]
-    },
-    "银粉": {
-        "type": "洗矿机",
-        "map": [["筛矿", null, null], [null, null, null], [null, null, null]],
-        "ingredients": [["筛矿"]]
-    },
-    "铅粉": {
-        "type": "洗矿机",
-        "map": [["筛矿", null, null], [null, null, null], [null, null, null]],
-        "ingredients": [["筛矿"]]
-    },
-    "铝粉": {
-        "type": "洗矿机",
-        "map": [["筛矿", null, null], [null, null, null], [null, null, null]],
-        "ingredients": [["筛矿"]]
-    },
-    "锌粉": {
-        "type": "洗矿机",
-        "map": [["筛矿", null, null], [null, null, null], [null, null, null]],
-        "ingredients": [["筛矿"]]
-    },
-    "镁粉": {
-        "type": "洗矿机",
-        "map": [["筛矿", null, null], [null, null, null], [null, null, null]],
-        "ingredients": [["筛矿"]]
     },
     "电力喷气背包-I": {
         "type": "增强型工作台",

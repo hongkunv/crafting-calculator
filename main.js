@@ -668,15 +668,15 @@ $(function () {
         }
     });
 
-    $("#add-dusts").click(function () {
-        readAlreadyHave();
-        for (const dust of ["铁粉", "金粉", "铜粉", "锡粉", "银粉", "铅粉", "铝粉", "锌粉", "镁粉"]) {
-            if (window.alreadyHave[dust] === undefined) {
-                addAlreadyItem(dust, undefined, false);
-            }
-        }
-        showRecipe();
-    });
+    // $("#add-dusts").click(function () {
+    //     readAlreadyHave();
+    //     for (const dust of ["铁粉", "金粉", "铜粉", "锡粉", "银粉", "铅粉", "铝粉", "锌粉", "镁粉"]) {
+    //         if (window.alreadyHave[dust] === undefined) {
+    //             addAlreadyItem(dust, undefined, false);
+    //         }
+    //     }
+    //     showRecipe();
+    // });
 
     $("#introduction-toggle").next().collapse('toggle');
 
